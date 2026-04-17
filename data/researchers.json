@@ -2939,5 +2939,2381 @@
     "collaborationFit": "Low",
     "id": "res-1771271842349",
     "researchedAt": 1771271842349
+  },
+  {
+    "id": "s-ren-bak",
+    "name": "Søren Bak",
+    "title": "Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/english/?pure=en/persons/173299"
+  },
+  {
+    "id": "anja-thoe-fuglsang",
+    "name": "Anja Thoe Fuglsang",
+    "title": "Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/english/?pure=en/persons/36035"
+  },
+  {
+    "id": "thomas-gunther-pomorski",
+    "name": "Thomas Günther-Pomorski",
+    "title": "Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/english/?pure=en/persons/354775"
+  },
+  {
+    "id": "lars-hestbjerg-hansen",
+    "name": "Lars Hestbjerg Hansen",
+    "title": "Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/english/?pure=en/persons/125054"
+  },
+  {
+    "id": "hans-chr-bruun-hansen",
+    "name": "Hans Chr. Bruun Hansen",
+    "title": "Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/english/?pure=en/persons/65930"
+  },
+  {
+    "id": "peter-engelund-holm",
+    "name": "Peter Engelund Holm",
+    "title": "Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/english/?pure=en/persons/254574"
+  },
+  {
+    "id": "lars-stoumann-jensen",
+    "name": "Lars Stoumann Jensen",
+    "title": "Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/english/?pure=en/persons/184737"
+  },
+  {
+    "id": "sotirios-kampranis",
+    "name": "Sotirios Kampranis",
+    "title": "Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/english/?pure=en/persons/543322"
+  },
+  {
+    "id": "christian-moliin-outzen-kapel",
+    "name": "Christian Moliin Outzen Kapel",
+    "title": "Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/english/?pure=en/persons/94545"
+  },
+  {
+    "id": "rosa-laura-lopez-marques",
+    "name": "Rosa Laura Lopez Marques",
+    "title": "Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/english/?pure=en/persons/310783"
+  },
+  {
+    "id": "birger-lindberg-m-ller",
+    "name": "Birger Lindberg Møller",
+    "title": "Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/english/?pure=en/persons/97696"
+  },
+  {
+    "id": "paul-neve",
+    "name": "Paul Neve",
+    "title": "Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/english/?pure=en/persons/710570"
+  },
+  {
+    "id": "alexander-schulz",
+    "name": "Alexander Schulz",
+    "title": "Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/english/?pure=en/persons/309543"
+  },
+  {
+    "id": "albin-gustav-sandelin",
+    "name": "Albin Gustav Sandelin",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/308874"
+  },
+  {
+    "id": "anders-gudiksen",
+    "name": "Anders Gudiksen",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/302637"
+  },
+  {
+    "id": "anna-sherwood",
+    "name": "Anna Sherwood",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/663767"
+  },
+  {
+    "id": "arnaud-stigliani",
+    "name": "Arnaud Stigliani",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/695609"
+  },
+  {
+    "id": "birgitte-regenberg",
+    "name": "Birgitte Regenberg",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/23899"
+  },
+  {
+    "id": "birthe-brandt-kragelund",
+    "name": "Birthe Brandt Kragelund",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/200605"
+  },
+  {
+    "id": "cesar-pacherres",
+    "name": "Cesar Pacherres",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/740473"
+  },
+  {
+    "id": "christian-holmberg",
+    "name": "Christian Holmberg",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/19565"
+  },
+  {
+    "id": "cristina-isabel-amador-hierro",
+    "name": "Cristina Isabel Amador Hierro",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/638063"
+  },
+  {
+    "id": "danillo-o-alvarenga",
+    "name": "Danillo O. Alvarenga",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/678596"
+  },
+  {
+    "id": "david-richard-nash",
+    "name": "David Richard Nash",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/201051"
+  },
+  {
+    "id": "ditte-skovaa-andersen",
+    "name": "Ditte Skovaa Andersen",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/644674"
+  },
+  {
+    "id": "elena-bollati",
+    "name": "Elena Bollati",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/723868"
+  },
+  {
+    "id": "eleazar-jose-rodriguez-gomes",
+    "name": "Eleazar José Rodriguez Gomes",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/439566"
+  },
+  {
+    "id": "elodie-floriane-mandel-briefer",
+    "name": "Elodie Floriane Mandel-Briefer",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/638318"
+  },
+  {
+    "id": "elizabeth-catherine-connolly",
+    "name": "Elizabeth Catherine Connolly",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/741654"
+  },
+  {
+    "id": "frank-hauser",
+    "name": "Frank Hauser",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/86368"
+  },
+  {
+    "id": "genevieve-thon",
+    "name": "Genevieve Thon",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/29648"
+  },
+  {
+    "id": "giulio-tesei",
+    "name": "Giulio Tesei",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/673215"
+  },
+  {
+    "id": "godefroid-charbon",
+    "name": "Godefroid Charbon",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/440400"
+  },
+  {
+    "id": "hans-redlef-siegismund",
+    "name": "Hans Redlef Siegismund",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/29118"
+  },
+  {
+    "id": "jacobus-jan-boomsma",
+    "name": "Jacobus Jan Boomsma",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/186303"
+  },
+  {
+    "id": "jakob-grunnet-knudsen",
+    "name": "Jakob Grunnet Knudsen",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/289726"
+  },
+  {
+    "id": "jakob-r-winther",
+    "name": "Jakob R. Winther",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/36936"
+  },
+  {
+    "id": "jana-isanta-navarro",
+    "name": "Jana Isanta-Navarro",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/797197"
+  },
+  {
+    "id": "jeppe-vinther",
+    "name": "Jeppe Vinther",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/123717"
+  },
+  {
+    "id": "jes-s-e-pedersen",
+    "name": "Jes Søe Pedersen",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/223913"
+  },
+  {
+    "id": "jing-tang",
+    "name": "Jing Tang",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/507605"
+  },
+  {
+    "id": "jinzhong-lin",
+    "name": "Jinzhong Lin",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/559127"
+  },
+  {
+    "id": "joel-vizueta-moraga",
+    "name": "Joel Vizueta Moraga",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/693363"
+  },
+  {
+    "id": "johan-gotthardt-olsen",
+    "name": "Johan Gotthardt Olsen",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/140246"
+  },
+  {
+    "id": "jonathan-donhauser",
+    "name": "Jonathan Donhauser",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/790316"
+  },
+  {
+    "id": "jonathan-z-shik",
+    "name": "Jonathan Z. Shik",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/472337"
+  },
+  {
+    "id": "josefin-stiller",
+    "name": "Josefin Stiller",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/592680"
+  },
+  {
+    "id": "joseph-nesme",
+    "name": "Joseph Nesme",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/592375"
+  },
+  {
+    "id": "julien-colombani",
+    "name": "Julien Colombani",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/644685"
+  },
+  {
+    "id": "kaj-sand-jensen",
+    "name": "Kaj Sand-Jensen",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/49846"
+  },
+  {
+    "id": "karsten-kristiansen",
+    "name": "Karsten Kristiansen",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/161470"
+  },
+  {
+    "id": "kathrin-rousk",
+    "name": "Kathrin Rousk",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/473488"
+  },
+  {
+    "id": "kenneth-veland-halberg",
+    "name": "Kenneth Veland Halberg",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/246619"
+  },
+  {
+    "id": "kelli-lynn-hvorecny",
+    "name": "Kelli Lynn Hvorecny",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/910896"
+  },
+  {
+    "id": "kirsten-seestern-christoffersen",
+    "name": "Kirsten Seestern Christoffersen",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/130281"
+  },
+  {
+    "id": "kolby-jeremiah-jardine",
+    "name": "Kolby Jeremiah Jardine",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/928811"
+  },
+  {
+    "id": "kresten-lindorff-larsen",
+    "name": "Kresten Lindorff-Larsen",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/174843"
+  },
+  {
+    "id": "kristian-agmund-haanes",
+    "name": "Kristian Agmund Haanes",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/326635"
+  },
+  {
+    "id": "lars-ellgaard",
+    "name": "Lars Ellgaard",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/294574"
+  },
+  {
+    "id": "lars-bastrup-spohr",
+    "name": "Lars Båstrup-Spohr",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/246625"
+  },
+  {
+    "id": "laura-martinez-alvarez",
+    "name": "Laura Martinez Alvarez",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/454592"
+  },
+  {
+    "id": "lone-r-nnov-jessen",
+    "name": "Lone Rønnov-Jessen",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/91722"
+  },
+  {
+    "id": "lotte-bang-pedersen",
+    "name": "Lotte Bang Pedersen",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/293381"
+  },
+  {
+    "id": "marlene-reichel",
+    "name": "Marlene Reichel",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/778135"
+  },
+  {
+    "id": "martin-willemoes",
+    "name": "Martin Willemoës",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/158435"
+  },
+  {
+    "id": "mathias-middelboe",
+    "name": "Mathias Middelboe",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/137902"
+  },
+  {
+    "id": "michael-askvad-s-rensen",
+    "name": "Michael Askvad Sørensen",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/120703"
+  },
+  {
+    "id": "michael-james-texada",
+    "name": "Michael James Texada",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/575120"
+  },
+  {
+    "id": "michael-kuhl",
+    "name": "Michael Kühl",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/89882"
+  },
+  {
+    "id": "milena-timcenko",
+    "name": "Milena Timcenko",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/706590"
+  },
+  {
+    "id": "mirna-perez-moreno",
+    "name": "Mirna Perez-Moreno",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/605337"
+  },
+  {
+    "id": "nadja-m-bjerg",
+    "name": "Nadja Møbjerg",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/132768"
+  },
+  {
+    "id": "niels-banhos-danneskiold-sams-e",
+    "name": "Niels Banhos Danneskiold-Samsøe",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/292081"
+  },
+  {
+    "id": "niels-ulrik-frigaard",
+    "name": "Niels-Ulrik Frigaard",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/287045"
+  },
+  {
+    "id": "nikolai-friberg",
+    "name": "Nikolai Friberg",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/122024"
+  },
+  {
+    "id": "patricia-chrzanova-pecnerova",
+    "name": "Patrícia Chrzanová Pecnerová",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/642956"
+  },
+  {
+    "id": "per-amstrup-pedersen",
+    "name": "Per Amstrup Pedersen",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/44216"
+  },
+  {
+    "id": "per-juel-hansen",
+    "name": "Per Juel Hansen",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/105096"
+  },
+  {
+    "id": "peter-brodersen",
+    "name": "Peter Brodersen",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/56490"
+  },
+  {
+    "id": "petur-orri-hei-arsson",
+    "name": "Pétur Orri Heiðarsson",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/345064"
+  },
+  {
+    "id": "rafael-pinilla-redondo",
+    "name": "Rafael Pinilla Redondo",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/544480"
+  },
+  {
+    "id": "rasmus-heller",
+    "name": "Rasmus Heller",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/206697"
+  },
+  {
+    "id": "riikka-rinnan",
+    "name": "Riikka Rinnan",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/266870"
+  },
+  {
+    "id": "rodrigo-ibarra-chavez",
+    "name": "Rodrigo Ibarra Chavez",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/678997"
+  },
+  {
+    "id": "rouba-jneid",
+    "name": "Rouba Jneid",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/741652"
+  },
+  {
+    "id": "sarah-rennie",
+    "name": "Sarah Rennie",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/536814"
+  },
+  {
+    "id": "stine-helene-falsig-pedersen",
+    "name": "Stine Helene Falsig Pedersen",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/157497"
+  },
+  {
+    "id": "s-ren-rosendahl",
+    "name": "Søren Rosendahl",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/111832"
+  },
+  {
+    "id": "s-ren-johannes-s-rensen",
+    "name": "Søren Johannes Sørensen",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/83514"
+  },
+  {
+    "id": "tarun-veer-singh-ahluwalia",
+    "name": "Tarun Veer Singh Ahluwalia",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/408671"
+  },
+  {
+    "id": "thomas-wim-hamelryck",
+    "name": "Thomas Wim Hamelryck",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/271052"
+  },
+  {
+    "id": "urvish-trivedi",
+    "name": "Urvish Trivedi",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/474480"
+  },
+  {
+    "id": "vasileios-voutsinos",
+    "name": "Vasileios Voutsinos",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/713185"
+  },
+  {
+    "id": "vibe-hallundb-k-stergaard",
+    "name": "Vibe Hallundbæk Østergaard",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/367753"
+  },
+  {
+    "id": "xi-wang",
+    "name": "Xi Wang",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/708655"
+  },
+  {
+    "id": "xiaodong-liu",
+    "name": "Xiaodong Liu",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/674033"
+  },
+  {
+    "id": "xu-peng",
+    "name": "Xu Peng",
+    "title": "Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/184750"
+  },
+  {
+    "id": "yong-zhang",
+    "name": "YONG ZHANG",
+    "title": "Associate Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/544579"
+  },
+  {
+    "id": "yi-jiao",
+    "name": "Yi Jiao",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/729954"
+  },
+  {
+    "id": "yuvaraj-bhoobalan",
+    "name": "Yuvaraj Bhoobalan",
+    "title": "Assistant Professor",
+    "department": "BIO",
+    "institution": "University of Copenhagen",
+    "url": "https://www1.bio.ku.dk/english/?pure=en/persons/498819"
+  },
+  {
+    "id": "serafim-bakalis",
+    "name": "Serafim Bakalis",
+    "title": "Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/682009"
+  },
+  {
+    "id": "kenneth-klingenberg-barfod",
+    "name": "Kenneth Klingenberg Barfod",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/165275"
+  },
+  {
+    "id": "giovanni-barone",
+    "name": "Giovanni Barone",
+    "title": "Assistant Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/706694"
+  },
+  {
+    "id": "jose-bonilla",
+    "name": "José Bonilla",
+    "title": "Assistant Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/836151"
+  },
+  {
+    "id": "remko-marcel-boom",
+    "name": "Remko Marcel Boom",
+    "title": "Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/776050"
+  },
+  {
+    "id": "rasmus-bro",
+    "name": "Rasmus Bro",
+    "title": "Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/159399"
+  },
+  {
+    "id": "nilay-budeyri-gokgoz",
+    "name": "Nilay Büdeyri Gökgöz",
+    "title": "Assistant Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/693725"
+  },
+  {
+    "id": "tomasz-pawel-czaja",
+    "name": "Tomasz Pawel Czaja",
+    "title": "Assistant Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/661108"
+  },
+  {
+    "id": "paulina-deptula",
+    "name": "Paulina Deptula",
+    "title": "Assistant Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/400414"
+  },
+  {
+    "id": "giuliano-marcelo-dragone",
+    "name": "Giuliano Marcelo Dragone",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/838014"
+  },
+  {
+    "id": "patricia-duque-estrada",
+    "name": "Patricia Duque Estrada",
+    "title": "Assistant Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/736395"
+  },
+  {
+    "id": "s-ren-balling-engelsen",
+    "name": "Søren Balling Engelsen",
+    "title": "Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/310851"
+  },
+  {
+    "id": "michael-bom-fr-st",
+    "name": "Michael Bom Frøst",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/310889"
+  },
+  {
+    "id": "sylvester-holt",
+    "name": "Sylvester Holt",
+    "title": "Assistant Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/246300"
+  },
+  {
+    "id": "anni-bygvra-hougaard",
+    "name": "Anni Bygvrå Hougaard",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/310165"
+  },
+  {
+    "id": "bekzod-khakimov",
+    "name": "Bekzod Khakimov",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/388946"
+  },
+  {
+    "id": "jacob-judas-kain-kirkensgaard",
+    "name": "Jacob Judas Kain Kirkensgaard",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/258778"
+  },
+  {
+    "id": "lukasz-krych",
+    "name": "Lukasz Krych",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/403177"
+  },
+  {
+    "id": "rene-lametsch",
+    "name": "Rene Lametsch",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/310895"
+  },
+  {
+    "id": "dennis-sandris-nielsen",
+    "name": "Dennis Sandris Nielsen",
+    "title": "Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/310135"
+  },
+  {
+    "id": "vibeke-orlien",
+    "name": "Vibeke Orlien",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/39045"
+  },
+  {
+    "id": "iben-lykke-petersen",
+    "name": "Iben Lykke Petersen",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/310459"
+  },
+  {
+    "id": "mikael-agerlin-petersen",
+    "name": "Mikael Agerlin Petersen",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/310625"
+  },
+  {
+    "id": "beatriz-quintanilla-casas",
+    "name": "Beatriz Quintanilla Casas",
+    "title": "Assistant Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/768954"
+  },
+  {
+    "id": "torben-s-lbeck-rasmussen",
+    "name": "Torben Sølbeck Rasmussen",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/574512"
+  },
+  {
+    "id": "asmund-rinnan",
+    "name": "Åsmund Rinnan",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/310780"
+  },
+  {
+    "id": "jens-risbo",
+    "name": "Jens Risbo",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/35494"
+  },
+  {
+    "id": "henrik-siegumfeldt",
+    "name": "Henrik Siegumfeldt",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/310519"
+  },
+  {
+    "id": "veronica-marie-sinotte",
+    "name": "Veronica Marie Sinotte",
+    "title": "Assistant Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/572027"
+  },
+  {
+    "id": "jakob-stokholm",
+    "name": "Jakob Stokholm",
+    "title": "Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/181314"
+  },
+  {
+    "id": "paraskevi-tsermoula",
+    "name": "Paraskevi Tsermoula",
+    "title": "Assistant Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/675089"
+  },
+  {
+    "id": "nanna-viereck",
+    "name": "Nanna Viereck",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/11836"
+  },
+  {
+    "id": "deyong-zhu",
+    "name": "Deyong Zhu",
+    "title": "Assistant Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/710748"
+  },
+  {
+    "id": "franciscus-winfried-j-van-der-berg",
+    "name": "Franciscus Winfried J van der Berg",
+    "title": "Associate Professor",
+    "department": "FOOD",
+    "institution": "University of Copenhagen",
+    "url": "https://food.ku.dk/english/?pure=en/persons/310826"
+  },
+  {
+    "id": "pablo-alcon",
+    "name": "Pablo Alcón",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/515035e5-6931-4c19-b237-c264e7ffc368"
+  },
+  {
+    "id": "ebbe-sloth-andersen",
+    "name": "Ebbe Sloth Andersen",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/c0741b1d-b5c7-46c6-9ee6-3590316882e8"
+  },
+  {
+    "id": "gregers-rom-andersen",
+    "name": "Gregers Rom Andersen",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/11cafc34-2c9e-4247-91de-5682cdca052f"
+  },
+  {
+    "id": "peter-ebert-andersen",
+    "name": "Peter Ebert Andersen",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/b808d787-66d2-422b-a0ad-99e1ac4e483f"
+  },
+  {
+    "id": "thomas-bataillon",
+    "name": "Thomas Bataillon",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/8a3f8bad-957a-4a82-a80f-ad722ed6796f"
+  },
+  {
+    "id": "juraj-bergman",
+    "name": "Juraj Bergman",
+    "title": "Tenure Track Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/5a0e0ec6-b003-4c4b-ac83-d466a5bce7f1"
+  },
+  {
+    "id": "s-ren-besenbacher",
+    "name": "Søren Besenbacher",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/ce64758a-054a-40ca-897b-543899af8c0f"
+  },
+  {
+    "id": "nicolai-juul-birkbak",
+    "name": "Nicolai Juul Birkbak",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/d37577ad-d197-4f43-9ed0-22e806b7bcbd"
+  },
+  {
+    "id": "lotte-bjergb-k",
+    "name": "Lotte Bjergbæk",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/67e87adf-f2a0-42b8-8bb8-dcc8d59a663d"
+  },
+  {
+    "id": "thomas-boesen",
+    "name": "Thomas Boesen",
+    "title": "Senior Researcher",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/4616a4b8-efa7-4a6a-96ee-22286c586093"
+  },
+  {
+    "id": "xavier-bofill-de-ros",
+    "name": "Xavier Bofill De Ros",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/5238a8a8-b232-4c5c-b762-04266274792a"
+  },
+  {
+    "id": "ditlev-egeskov-brodersen",
+    "name": "Ditlev Egeskov Brodersen",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/949c93d7-db87-4b37-be18-da3484ef3da9"
+  },
+  {
+    "id": "andrii-bugai",
+    "name": "Andrii Bugai",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/a9d08142-c163-4180-afaf-ff8add897809"
+  },
+  {
+    "id": "christian-kroun-damgaard",
+    "name": "Christian Kroun Damgaard",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/a24c7ef7-266e-495e-8688-c78af63545da"
+  },
+  {
+    "id": "yuhui-dou",
+    "name": "Yuhui Dou",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/fd62823e-1510-4989-a6c3-94e086b9197e"
+  },
+  {
+    "id": "jan-j-enghild",
+    "name": "Jan J. Enghild",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/8ed6c632-b99d-4ded-950f-aa8055595765"
+  },
+  {
+    "id": "leslie-foldager",
+    "name": "Leslie Foldager",
+    "title": "Senior Researcher",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/a815b9b5-4778-40b7-9686-3020f664195f"
+  },
+  {
+    "id": "manuel-frank",
+    "name": "Manuel Frank",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/c6562a6a-c811-4dc4-82da-edf46502ecab"
+  },
+  {
+    "id": "rosaria-gandini",
+    "name": "Rosaria Gandini",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/ea5a0e37-5081-4c07-97ae-d400aaa028c4"
+  },
+  {
+    "id": "aleksandr-gavrin",
+    "name": "Aleksandr Gavrin",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/014a6de8-464e-4a36-bea8-e08b9ec9fe09"
+  },
+  {
+    "id": "jakob-grove",
+    "name": "Jakob Grove",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/172151b5-79f9-4863-9a04-0d9cda9f4d78"
+  },
+  {
+    "id": "kira-gysel",
+    "name": "Kira Gysel",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/b4c7e9f2-1a37-47de-9dfe-b178b0d1762e"
+  },
+  {
+    "id": "rune-hartmann",
+    "name": "Rune Hartmann",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/693cef7b-e116-4613-a5ca-bc538cab5b9f"
+  },
+  {
+    "id": "andreas-holleufer",
+    "name": "Andreas Holleufer",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/f12763af-3b6c-4cdc-a71f-2276b9b75692"
+  },
+  {
+    "id": "erik-stergaard-jensen",
+    "name": "Erik Østergaard Jensen",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/83efb460-1431-48eb-aa27-0f75a3f564ea"
+  },
+  {
+    "id": "haja-kadarmideen",
+    "name": "Haja Kadarmideen",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/687ae3de-7263-4ad5-ac4c-3e04f4ecb4b2"
+  },
+  {
+    "id": "lilian-kisiswa",
+    "name": "Lilian Kisiswa",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/212c25e5-1e52-475a-95c9-d7365d12139a"
+  },
+  {
+    "id": "taro-kitazawa",
+    "name": "Taro Kitazawa",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/223bdddf-94bd-4fc9-b4c0-dbe5b9ef3752"
+  },
+  {
+    "id": "j-rgen-kjems",
+    "name": "Jørgen Kjems",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/f5915d75-aca3-437a-9a9d-f4fdfef7accd"
+  },
+  {
+    "id": "birgitta-r-knudsen",
+    "name": "Birgitta R. Knudsen",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/50fca07c-ced4-453a-a26a-0d664c9a1491"
+  },
+  {
+    "id": "charlotte-rohde-knudsen",
+    "name": "Charlotte Rohde Knudsen",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/782aeedc-6bcd-4ce7-867a-57a7cfbcf1bc"
+  },
+  {
+    "id": "emil-laust-kristoffersen",
+    "name": "Emil Laust Kristoffersen",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/43107887-47e0-4fd6-aa05-c838c7afc696"
+  },
+  {
+    "id": "joseph-lyons",
+    "name": "Joseph Lyons",
+    "title": "Tenure Track Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/5011cf6f-8839-4aa7-ba3e-02b04f09168c"
+  },
+  {
+    "id": "mette-galsgaard-malle",
+    "name": "Mette Galsgaard Malle",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/213c383b-a6d2-4c9d-af82-93cb8c5bfbd8"
+  },
+  {
+    "id": "marcela-mendoza-suarez",
+    "name": "Marcela Mendoza-Suárez",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/06340943-1af3-4a9f-a9db-a8727d15f362"
+  },
+  {
+    "id": "noemie-mermet-joret",
+    "name": "Noëmie Mermet-Joret",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/77544f91-4aa8-4982-896f-9b08f1dc8297"
+  },
+  {
+    "id": "fiona-mullner",
+    "name": "Fiona Müllner",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/87d27a6e-85e1-4797-ba3f-2f7104665194"
+  },
+  {
+    "id": "sadegh-nabavi",
+    "name": "Sadegh Nabavi",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/94dc5e1e-8437-4c74-a901-99ab3793db2d"
+  },
+  {
+    "id": "marcin-nadzieja",
+    "name": "Marcin Nadzieja",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/896e30f2-c8b8-4b48-aed0-ca5de75cbc62"
+  },
+  {
+    "id": "dragos-niculescu",
+    "name": "Dragos Niculescu",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/10a112ca-f487-4cc2-9a4a-c9190c383ab8"
+  },
+  {
+    "id": "michael-lund-nielsen",
+    "name": "Michael Lund Nielsen",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/57e6839d-c6d5-4048-808d-e3d85ca361ce"
+  },
+  {
+    "id": "nadia-sukusu-nielsen",
+    "name": "Nadia Sukusu Nielsen",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/19180a95-b47b-4bec-b100-d613cac6a6ab"
+  },
+  {
+    "id": "ulf-andersson-vang-rom",
+    "name": "Ulf Andersson Vang Ørom",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/fd91354b-b12a-4002-b963-5bbb8dd9eb9d"
+  },
+  {
+    "id": "daniel-erik-otzen",
+    "name": "Daniel Erik Otzen",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/0ec06c22-1f74-4dd2-a894-af30b6565766"
+  },
+  {
+    "id": "claus-oxvig",
+    "name": "Claus Oxvig",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/ed472b6b-b72e-45f7-9d27-09bc23d0db9d"
+  },
+  {
+    "id": "bj-rn-panyella-pedersen",
+    "name": "Bjørn Panyella Pedersen",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/51967bad-d869-45d6-9a7e-667e068eb43e"
+  },
+  {
+    "id": "christian-n-rgaard-storm-pedersen",
+    "name": "Christian Nørgaard Storm Pedersen",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/c36d6c36-4b4c-453f-9f0d-9e9110ddbb1a"
+  },
+  {
+    "id": "jakob-skou-pedersen",
+    "name": "Jakob Skou Pedersen",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/9c14e87f-2dc3-4c08-a074-146337aff8a0"
+  },
+  {
+    "id": "lene-pedersen",
+    "name": "Lene Pedersen",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/10a29fd5-1347-47cf-be2b-cce437fcb165"
+  },
+  {
+    "id": "jan-trige-rasmussen",
+    "name": "Jan Trige Rasmussen",
+    "title": "Senior Researcher",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/70fbaa7e-bff4-4d4f-98e3-b7679de56d4a"
+  },
+  {
+    "id": "alena-salasova",
+    "name": "Alena Salasova",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/d8e86714-df70-4701-a1a6-acfd76cf6769"
+  },
+  {
+    "id": "niels-n-rgaard-sandal",
+    "name": "Niels Nørgaard Sandal",
+    "title": "Senior Researcher",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/3203dbd8-0a55-474f-b9c3-b359bbbc5308"
+  },
+  {
+    "id": "ragnhild-bager-skjerning",
+    "name": "Ragnhild Bager Skjerning",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/dc8f22c4-14c8-4339-b3a0-43295d1c730a"
+  },
+  {
+    "id": "esben-skipper-s-rensen",
+    "name": "Esben Skipper Sørensen",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/2a324c87-edd8-452c-b464-b2db7a9e268a"
+  },
+  {
+    "id": "tinna-v-stevnsner",
+    "name": "Tinna V. Stevnsner",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/dcc8089e-abdf-4ae8-93c5-b43f99e4ddb1"
+  },
+  {
+    "id": "charlott-stock",
+    "name": "Charlott Stock",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/69b181c6-35ed-40fc-986d-f0d6f09351bc"
+  },
+  {
+    "id": "chao-sun",
+    "name": "Chao Sun",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/9d9311fd-fc99-4663-aa36-6afe465fc213"
+  },
+  {
+    "id": "cinzia-tesauro",
+    "name": "Cinzia Tesauro",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/f4ff1aa9-9d88-4ccb-9fbd-528e42283f7b"
+  },
+  {
+    "id": "bo-thomsen",
+    "name": "Bo Thomsen",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/f6c24beb-b997-4a4a-98fb-e026c870fd21"
+  },
+  {
+    "id": "daan-van-aalten",
+    "name": "Daan van Aalten",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/721793ab-9dcb-4e8f-b2b5-54c5bf405b63"
+  },
+  {
+    "id": "vera-anna-van-der-weijden",
+    "name": "Vera Anna van der Weijden",
+    "title": "Tenure Track Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/2c392a35-d796-4884-b9e0-c4b6bd6868c4"
+  },
+  {
+    "id": "gilles-claude-vanwalleghem",
+    "name": "Gilles Claude Vanwalleghem",
+    "title": "Tenure Track Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/6541b97f-e29b-489a-bd13-2ff7f0475bbb"
+  },
+  {
+    "id": "bjarni-johann-vilhjalmsson",
+    "name": "Bjarni Jóhann Vilhjálmsson",
+    "title": "Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/35c047ab-0899-4434-91bb-121e4878ec76"
+  },
+  {
+    "id": "palle-villesen",
+    "name": "Palle Villesen",
+    "title": "Associate Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/c1c4bd28-befd-4150-bbbb-10138e528d53"
+  },
+  {
+    "id": "kathryn-jayne-williams",
+    "name": "Kathryn Jayne Williams",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/3b563069-8bf0-4689-bc11-dc947c5b7196"
+  },
+  {
+    "id": "christian-wurtz-heegaard",
+    "name": "Christian Würtz Heegaard",
+    "title": "Senior Researcher",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/f7804b8e-023c-4aab-8102-0a1d95b20760"
+  },
+  {
+    "id": "peter-zeller",
+    "name": "Peter Zeller",
+    "title": "Tenure Track Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/89ad0f2e-6429-47fa-bfd6-d99fb9567eb0"
+  },
+  {
+    "id": "lorena-zuzic",
+    "name": "Lorena Zuzic",
+    "title": "Assistant Professor",
+    "department": "AU MBG",
+    "institution": "Aarhus University",
+    "url": "https://mbg.au.dk/en/contact/staff-and-students/show/person/37895d4e-7faf-453a-9149-c79bfa802705"
+  },
+  {
+    "id": "torben-asp",
+    "name": "Torben Asp",
+    "title": "Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/790dac99-3fc3-4952-b489-b919fac518fa"
+  },
+  {
+    "id": "bjarne-nielsen",
+    "name": "Bjarne Nielsen",
+    "title": "Associate Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/a79025ca-c2cb-4ed1-bb8e-6f6142d08bb1"
+  },
+  {
+    "id": "elesandro-bornhofen",
+    "name": "Elesandro Bornhofen",
+    "title": "Assistant Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/bfc9bd72-127d-46af-9871-51362694f9dd"
+  },
+  {
+    "id": "alban-etienne-rene-bouquet",
+    "name": "Alban Etienne René Bouquet",
+    "title": "Tenure Track Assistant Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/e14fa1ad-d2cb-4d4d-8d71-487786f13208"
+  },
+  {
+    "id": "albert-johannes-buitenhuis",
+    "name": "Albert Johannes Buitenhuis",
+    "title": "Associate Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/28656822-a723-4817-b0dd-d48b40e15b0f"
+  },
+  {
+    "id": "zexi-cai",
+    "name": "Zexi Cai",
+    "title": "Associate Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/8a71bf1c-e484-4cff-9a57-02a1c6d6b061"
+  },
+  {
+    "id": "thinh-tuan-chu",
+    "name": "Thinh Tuan Chu",
+    "title": "Assistant Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/a996e251-e8bb-444a-a1e6-2086669d6ee9"
+  },
+  {
+    "id": "lingzhao-fang",
+    "name": "Lingzhao Fang",
+    "title": "Tenure Track Assistant Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/4e548f18-1d3b-4395-b7ad-6c7b7d1d1f79"
+  },
+  {
+    "id": "grum-gebreyesus",
+    "name": "Grum Gebreyesus",
+    "title": "Tenure Track Assistant Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/634d4580-4bbe-4eae-92bf-92324e079e70"
+  },
+  {
+    "id": "quentin-geissmann",
+    "name": "Quentin Geissmann",
+    "title": "Tenure Track Assistant Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/6c5747e9-e7bc-4150-82bf-5a17830bdadc"
+  },
+  {
+    "id": "irene-julca",
+    "name": "Irene Julca",
+    "title": "Assistant Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/0127d1da-49a4-4c32-9572-114ea0b5c91b"
+  },
+  {
+    "id": "emre-karaman",
+    "name": "Emre Karaman",
+    "title": "Associate Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/c11acd9b-178b-43cb-a44c-214f25de4760"
+  },
+  {
+    "id": "morten-kargo",
+    "name": "Morten Kargo",
+    "title": "Senior Researcher",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/a3522626-c405-4303-9d68-3e5f12599c31"
+  },
+  {
+    "id": "bingjie-li",
+    "name": "Bingjie Li",
+    "title": "Associate Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/5c4a3fac-a128-43b5-82c8-4b5e8e877415"
+  },
+  {
+    "id": "huiming-liu",
+    "name": "Huiming Liu",
+    "title": "Assistant Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/7387ba32-3eea-4128-8d2e-c100bb9653c1"
+  },
+  {
+    "id": "peter-l-vendahl",
+    "name": "Peter Løvendahl",
+    "title": "Senior Researcher",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/d1d68047-88cc-43f8-93ed-04e289ca5b38"
+  },
+  {
+    "id": "luc-janss",
+    "name": "Luc Janss",
+    "title": "Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/63afa9ba-d299-4d90-b4b8-235b761e8df8"
+  },
+  {
+    "id": "just-jensen",
+    "name": "Just Jensen",
+    "title": "Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/fd33639a-638e-4eca-b152-71c93ab91293"
+  },
+  {
+    "id": "per-madsen",
+    "name": "Per Madsen",
+    "title": "Senior Researcher",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/ae23d5af-c802-448b-8228-c5b98de87fdd"
+  },
+  {
+    "id": "hanne-marie-nielsen",
+    "name": "Hanne Marie Nielsen",
+    "title": "Senior Researcher",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/4557ab69-42a2-40e1-9c55-66bb9f9aad50"
+  },
+  {
+    "id": "vivi-hunnicke-nielsen",
+    "name": "Vivi Hunnicke Nielsen",
+    "title": "Associate Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/b39dff48-59cf-47ed-8da0-94826fdf67bf"
+  },
+  {
+    "id": "guillaume-ramstein",
+    "name": "Guillaume Ramstein",
+    "title": "Tenure Track Assistant Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/def38197-8b5d-4910-99fe-b488f4619dab"
+  },
+  {
+    "id": "goutam-sahana",
+    "name": "Goutam Sahana",
+    "title": "Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/bb375f9c-4103-4460-80cc-ec53d0cd03d5"
+  },
+  {
+    "id": "peter-s-rensen",
+    "name": "Peter Sørensen",
+    "title": "Senior Researcher",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/7c450296-453c-46d1-9ac3-c56b25ddda41"
+  },
+  {
+    "id": "doug-speed",
+    "name": "Doug Speed",
+    "title": "Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/b8f3a130-3852-4e11-8061-ad934446c532"
+  },
+  {
+    "id": "rasmus-bak-stephansen",
+    "name": "Rasmus Bak Stephansen",
+    "title": "Tenure Track Assistant Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/01f6c4b8-fd2f-443d-9b57-e70ca19d440d"
+  },
+  {
+    "id": "guosheng-su",
+    "name": "Guosheng Su",
+    "title": "Senior Researcher",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/20b733e4-94e1-4a7a-8e5b-9a3477de9289"
+  },
+  {
+    "id": "viktor-milkevych",
+    "name": "Viktor Milkevych",
+    "title": "Assistant Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/645d2415-a77c-4b98-85e1-9389888bd735"
+  },
+  {
+    "id": "roos-marina-zaalberg",
+    "name": "Roos Marina Zaalberg",
+    "title": "Assistant Professor",
+    "department": "AU QGG",
+    "institution": "Aarhus University",
+    "url": "https://qgg.au.dk/om-qgg/kontakt/vis/person/123b45a3-e065-4dfb-a02b-2792cdc1d76b"
+  },
+  {
+    "id": "dan-st-rk",
+    "name": "Dan Stærk",
+    "title": "Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/321761"
+  },
+  {
+    "id": "flemming-steen-j-rgensen",
+    "name": "Flemming Steen Jørgensen",
+    "title": "Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/16003"
+  },
+  {
+    "id": "jesper-langgaard-kristensen",
+    "name": "Jesper Langgaard Kristensen",
+    "title": "Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/319358"
+  },
+  {
+    "id": "jette-sandholm-jensen-kastrup",
+    "name": "Jette Sandholm Jensen Kastrup",
+    "title": "Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/157928"
+  },
+  {
+    "id": "lasse-kristoffer-bak",
+    "name": "Lasse Kristoffer Bak",
+    "title": "Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/319883"
+  },
+  {
+    "id": "matthias-manfred-herth",
+    "name": "Matthias Manfred Herth",
+    "title": "Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/403658"
+  },
+  {
+    "id": "miriam-kolko",
+    "name": "Miriam Kolko",
+    "title": "Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/81581"
+  },
+  {
+    "id": "morten-lindow",
+    "name": "Morten Lindow",
+    "title": "Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/64602"
+  },
+  {
+    "id": "morten-andersen",
+    "name": "Morten Andersen",
+    "title": "Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/145405"
+  },
+  {
+    "id": "nicholas-m-i-taylor",
+    "name": "Nicholas M I Taylor",
+    "title": "Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/605665"
+  },
+  {
+    "id": "stefan-vogel",
+    "name": "Stefan Vogel",
+    "title": "Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/322978"
+  },
+  {
+    "id": "trond-ulven",
+    "name": "Trond Ulven",
+    "title": "Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/343509"
+  },
+  {
+    "id": "alexander-sebastian-hauser",
+    "name": "Alexander Sebastian Hauser",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/489126"
+  },
+  {
+    "id": "anders-skov-kristensen",
+    "name": "Anders Skov Kristensen",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/321697"
+  },
+  {
+    "id": "annette-eva-langkilde",
+    "name": "Annette Eva Langkilde",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/159519"
+  },
+  {
+    "id": "anne-byriel-walls",
+    "name": "Anne Byriel Walls",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/320253"
+  },
+  {
+    "id": "azadeh-shahsavar",
+    "name": "Azadeh Shahsavar",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/400520"
+  },
+  {
+    "id": "celine-galvagnion-bull",
+    "name": "Céline Galvagnion-Büll",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/644238"
+  },
+  {
+    "id": "elisabeth-rexen-ulven",
+    "name": "Elisabeth Rexen Ulven",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/540552"
+  },
+  {
+    "id": "jesper-m-mathiesen",
+    "name": "Jesper M. Mathiesen",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/72863"
+  },
+  {
+    "id": "joseph-matthew-rogers",
+    "name": "Joseph Matthew Rogers",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/683103"
+  },
+  {
+    "id": "karla-andrea-frydenvang",
+    "name": "Karla Andrea Frydenvang",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/60647"
+  },
+  {
+    "id": "kristi-anne-kohlmeier",
+    "name": "Kristi Anne Kohlmeier",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/352872"
+  },
+  {
+    "id": "maurizio-sessa",
+    "name": "Maurizio Sessa",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/623477"
+  },
+  {
+    "id": "morten-baltzer-houlind",
+    "name": "Morten Baltzer Houlind",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/321335"
+  },
+  {
+    "id": "niels-skotte",
+    "name": "Niels Skotte",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/179472"
+  },
+  {
+    "id": "patrick-mac-donald-fisher",
+    "name": "Patrick Mac Donald Fisher",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/443333"
+  },
+  {
+    "id": "paul-robert-hansen",
+    "name": "Paul Robert Hansen",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/116652"
+  },
+  {
+    "id": "tri-hien-viet-huynh",
+    "name": "Tri Hien Viet Huynh",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/365909"
+  },
+  {
+    "id": "trine-meldgaard-lund",
+    "name": "Trine Meldgaard Lund",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/118265"
+  },
+  {
+    "id": "tuula-anneli-kallunki",
+    "name": "Tuula Anneli Kallunki",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/382358"
+  },
+  {
+    "id": "uffe-kristiansen",
+    "name": "Uffe Kristiansen",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/295593"
+  },
+  {
+    "id": "charlotte-vermehren",
+    "name": "Charlotte Vermehren",
+    "title": "Associate Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/129863"
+  },
+  {
+    "id": "christian-kofoed",
+    "name": "Christian Kofoed",
+    "title": "Assistant Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/371936"
+  },
+  {
+    "id": "christian-bernard-matthijs-poulie",
+    "name": "Christian Bernard Matthijs Poulie",
+    "title": "Assistant Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/438255"
+  },
+  {
+    "id": "erika-bianca-torres-villanueva",
+    "name": "Erika Bianca Torres Villanueva",
+    "title": "Assistant Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/545588"
+  },
+  {
+    "id": "francesco-bavo",
+    "name": "Francesco Bavo",
+    "title": "Assistant Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/583069"
+  },
+  {
+    "id": "haidai-hu",
+    "name": "Haidai Hu",
+    "title": "Assistant Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/681605"
+  },
+  {
+    "id": "janina-soermann",
+    "name": "Janina Soermann",
+    "title": "Assistant Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/792336"
+  },
+  {
+    "id": "jane-knochel",
+    "name": "Jane Knöchel",
+    "title": "Tenure Track Assistant Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/923029"
+  },
+  {
+    "id": "jonas-sigurd-mortensen",
+    "name": "Jonas Sigurd Mortensen",
+    "title": "Assistant Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/373463"
+  },
+  {
+    "id": "markus-staudt",
+    "name": "Markus Staudt",
+    "title": "Assistant Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/503305"
+  },
+  {
+    "id": "trinh-trung-duong-nguyen",
+    "name": "Trinh Trung Duong Nguyen",
+    "title": "Assistant Professor",
+    "department": "Drug Design & Pharmacology",
+    "institution": "University of Copenhagen",
+    "url": "https://drug.ku.dk/?pure=en/persons/729949"
+  },
+  {
+    "id": "samuel-cushman",
+    "name": "Samuel Cushman",
+    "title": "Professor",
+    "department": "SDU Population Biology",
+    "institution": "University of Southern Denmark",
+    "url": "https://portal.findresearcher.sdu.dk/en/persons/cushman/"
+  },
+  {
+    "id": "johan-dahlgren",
+    "name": "Johan Dahlgren",
+    "title": "Associate Professor",
+    "department": "SDU Population Biology",
+    "institution": "University of Southern Denmark",
+    "url": "https://portal.findresearcher.sdu.dk/da/persons/johan-dahlgren"
+  },
+  {
+    "id": "owen-r-jones",
+    "name": "Owen R. Jones",
+    "title": "Associate Professor",
+    "department": "SDU Population Biology",
+    "institution": "University of Southern Denmark",
+    "url": "https://portal.findresearcher.sdu.dk/da/persons/owen-r-jones"
+  },
+  {
+    "id": "morgane-tidiere",
+    "name": "Morgane Tidière",
+    "title": "Assistant Professor",
+    "department": "SDU Population Biology",
+    "institution": "University of Southern Denmark",
+    "url": "https://portal.findresearcher.sdu.dk/da/persons/morgane-tidi%C3%A8re"
+  },
+  {
+    "id": "kristian-barrett",
+    "name": "Kristian Barrett",
+    "title": "Assistant Professor",
+    "department": "DTU Bioengineering",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/english/person/kristian-barrett?id=63796"
+  },
+  {
+    "id": "hans-christopher-bernstein",
+    "name": "Hans Christopher Bernstein",
+    "title": "Professor",
+    "department": "DTU Bioengineering",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/english/person/hans-christopher-bernstein?id=222441"
+  },
+  {
+    "id": "kai-blin",
+    "name": "Kai Blin",
+    "title": "Senior Researcher",
+    "department": "DTU Bioengineering",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/english/person/kai-blin?id=101881"
+  },
+  {
+    "id": "alexander-kai-bull",
+    "name": "Alexander Kai Büll",
+    "title": "Professor",
+    "department": "DTU Bioengineering",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/english/person/alexander-kai-bull?id=142337"
+  },
+  {
+    "id": "pep-charusanti",
+    "name": "Pep Charusanti",
+    "title": "Senior Researcher",
+    "department": "DTU Bioengineering",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/english/person/pep-charusanti?id=91215"
+  },
+  {
+    "id": "irina-borodina",
+    "name": "Irina Borodina",
+    "title": "Professor",
+    "department": "DTU Biosustain",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/english/person/irina-borodina?id=15556"
+  },
+  {
+    "id": "sanni-leea-hellevi-aalto",
+    "name": "Sanni-Leea Hellevi Aalto",
+    "title": "Senior Researcher",
+    "department": "DTU Aqua",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/person/sanni-leea-hellevi-aalto?id=145135"
+  },
+  {
+    "id": "kim-aarestrup",
+    "name": "Kim Aarestrup",
+    "title": "Professor",
+    "department": "DTU Aqua",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/person/kim-aarestrup?id=39648"
+  },
+  {
+    "id": "mathis-von-ahnen",
+    "name": "Mathis von Ahnen",
+    "title": "Associate Professor",
+    "department": "DTU Aqua",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/person/mathis-von-ahnen?id=74153"
+  },
+  {
+    "id": "christoffer-moesgaard-albertsen",
+    "name": "Christoffer Moesgaard Albertsen",
+    "title": "Senior Researcher",
+    "department": "DTU Aqua",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/person/christoffer-moesgaard-albertsen?id=93186"
+  },
+  {
+    "id": "ken-haste-andersen",
+    "name": "Ken Haste Andersen",
+    "title": "Professor",
+    "department": "DTU Aqua",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/person/ken-haste-andersen?id=4625"
+  },
+  {
+    "id": "niels-gerner-andersen",
+    "name": "Niels Gerner Andersen",
+    "title": "Senior Researcher",
+    "department": "DTU Aqua",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/person/niels-gerner-andersen?id=39739"
+  },
+  {
+    "id": "henrik-baktoft",
+    "name": "Henrik Baktoft",
+    "title": "Senior Researcher",
+    "department": "DTU Aqua",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/person/henrik-baktoft?id=40353"
+  },
+  {
+    "id": "francois-bastardie",
+    "name": "Francois Bastardie",
+    "title": "Senior Researcher",
+    "department": "DTU Aqua",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/person/francois-bastardie?id=43283"
+  },
+  {
+    "id": "jane-behrens",
+    "name": "Jane Behrens",
+    "title": "Professor",
+    "department": "DTU Aqua",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/person/jane-behrens?id=53754"
+  },
+  {
+    "id": "dorte-bekkevold",
+    "name": "Dorte Bekkevold",
+    "title": "Professor",
+    "department": "DTU Aqua",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/person/dorte-bekkevold?id=39622"
+  },
+  {
+    "id": "casper-willestofte-berg",
+    "name": "Casper Willestofte Berg",
+    "title": "Senior Researcher",
+    "department": "DTU Aqua",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/person/casper-willestofte-berg?id=17350"
+  },
+  {
+    "id": "jesper-boje",
+    "name": "Jesper Boje",
+    "title": "Senior Researcher",
+    "department": "DTU Aqua",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/person/jesper-boje?id=39811"
+  },
+  {
+    "id": "amber-adore-boot",
+    "name": "Amber Adore Boot",
+    "title": "Assistant Professor",
+    "department": "DTU Aqua",
+    "institution": "Technical University of Denmark",
+    "url": "https://www.dtu.dk/person/amber-adore-boot?id=227897"
   }
 ]
