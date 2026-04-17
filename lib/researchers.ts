@@ -48,6 +48,29 @@ export function allDepartments(): string[] {
   return Array.from(set).sort()
 }
 
+/**
+ * Find researchers with the most topic overlap (Jaccard on normalized topics).
+ * Excludes the input researcher itself.
+ */
+export function findSimilar(researcher: Researcher, limit = 5): Researcher[] {
+  if (!researcher.topics || researcher.topics.length === 0) return []
+  const norm = (t: string) => t.toLowerCase().trim()
+  const targetSet = new Set(researcher.topics.map(norm))
+  const scored: Array<{ r: Researcher; score: number }> = []
+  for (const other of loadResearchers()) {
+    if (other.id === researcher.id) continue
+    if (!other.topics || other.topics.length === 0) continue
+    const otherSet = new Set(other.topics.map(norm))
+    let shared = 0
+    for (const t of targetSet) if (otherSet.has(t)) shared++
+    if (shared === 0) continue
+    const union = targetSet.size + otherSet.size - shared
+    scored.push({ r: other, score: shared / union })
+  }
+  scored.sort((a, b) => b.score - a.score)
+  return scored.slice(0, limit).map((x) => x.r)
+}
+
 export function allInstitutions(): string[] {
   const set = new Set<string>()
   for (const r of loadResearchers()) {

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { Suspense } from 'react'
 import { loadResearchers, sortResearchers } from '@/lib/researchers'
 import ResearcherList from '@/components/ResearcherList'
 
@@ -25,7 +26,9 @@ export default function HomePage() {
 
       <section>
         <h2 className="text-xl font-semibold mb-4">Browse all researchers</h2>
-        <ResearcherList researchers={researchers} />
+        <Suspense fallback={<p className="text-[var(--text-muted)]">Loading…</p>}>
+          <ResearcherList researchers={researchers} />
+        </Suspense>
       </section>
     </div>
   )

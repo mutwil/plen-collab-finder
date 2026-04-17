@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { loadResearchers, getById, getTitleColor } from '@/lib/researchers'
+import { loadResearchers, getById, getTitleColor, findSimilar } from '@/lib/researchers'
+import ResearcherCard from '@/components/ResearcherCard'
 
 export function generateStaticParams() {
   return loadResearchers().map((r) => ({ id: r.id }))
@@ -16,12 +17,27 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   }
 }
 
+function formatDate(ts?: number): string | null {
+  if (!ts) return null
+  const d = new Date(ts)
+  if (isNaN(d.getTime())) return null
+  return d.toLocaleDateString('en-GB', { year: 'numeric', month: 'short', day: 'numeric' })
+}
+
 export default async function ResearcherPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params
   const r = getById(id)
   if (!r) notFound()
 
   const titleColor = getTitleColor(r.title)
+  const similar = findSimilar(r, 4)
+  const updatedStr = formatDate(r.researchedAt)
+
+  const correctionSubject = encodeURIComponent(`Correction: ${r.name}`)
+  const correctionBody = encodeURIComponent(
+    `Hi,\n\nRegarding the profile of ${r.name} on plen-collab-finder.vercel.app:\n\n[describe the correction or update]\n\nThanks.`,
+  )
+  const correctionHref = `mailto:mutwil@plen.ku.dk?subject=${correctionSubject}&body=${correctionBody}`
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-10">
@@ -40,7 +56,14 @@ export default async function ResearcherPage({ params }: { params: Promise<{ id:
                   {r.title}
                 </span>
               )}
-              {r.department && <span className="font-mono text-[var(--text-muted)]">{r.department}</span>}
+              {r.department && (
+                <Link
+                  href={`/department/${encodeURIComponent(r.department)}`}
+                  className="font-mono text-[var(--text-muted)] hover:text-[var(--accent)] no-underline"
+                >
+                  {r.department}
+                </Link>
+              )}
               {r.institution && <span className="text-[var(--text-subtle)]">· {r.institution}</span>}
             </div>
           </div>
@@ -88,9 +111,13 @@ export default async function ResearcherPage({ params }: { params: Promise<{ id:
             <h2 className="text-xs font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-2">Topics</h2>
             <div className="flex flex-wrap gap-1.5">
               {r.topics.map((t) => (
-                <span key={t} className="text-xs px-2 py-0.5 rounded bg-[var(--bg-subtle)] text-[var(--text-muted)] border border-[var(--border)]">
+                <Link
+                  key={t}
+                  href={`/?topic=${encodeURIComponent(t)}`}
+                  className="text-xs px-2 py-0.5 rounded bg-[var(--bg-subtle)] text-[var(--text-muted)] border border-[var(--border)] no-underline hover:border-[var(--text-muted)] hover:text-[var(--text)]"
+                >
                   {t}
-                </span>
+                </Link>
               ))}
             </div>
           </section>
@@ -104,6 +131,24 @@ export default async function ResearcherPage({ params }: { params: Promise<{ id:
                 <li key={a}>{a}</li>
               ))}
             </ul>
+          </section>
+        )}
+
+        <div className="mt-8 pt-6 border-t border-[var(--border)] flex flex-wrap items-center justify-between gap-3 text-xs text-[var(--text-subtle)]">
+          <span>{updatedStr ? `Profile last refreshed: ${updatedStr}` : ''}</span>
+          <a href={correctionHref} className="text-[var(--text-muted)] hover:text-[var(--accent)]">
+            Report a correction →
+          </a>
+        </div>
+
+        {similar.length > 0 && (
+          <section className="mt-12">
+            <h2 className="text-xs font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-4">Similar researchers</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {similar.map((s) => (
+                <ResearcherCard key={s.id} researcher={s} />
+              ))}
+            </div>
           </section>
         )}
       </div>

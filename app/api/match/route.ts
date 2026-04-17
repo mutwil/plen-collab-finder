@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import Anthropic from '@anthropic-ai/sdk'
 import { loadResearchers } from '@/lib/researchers'
 import { buildResearcherDigest, buildMatchPrompt, parseMatchResponse } from '@/lib/match'
+import { rateLimit, getClientIp } from '@/lib/rate-limit'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -10,6 +11,23 @@ export async function POST(req: Request) {
   const apiKey = process.env.ANTHROPIC_API_KEY
   if (!apiKey) {
     return NextResponse.json({ ok: false, error: 'ANTHROPIC_API_KEY not configured on server' }, { status: 500 })
+  }
+
+  // Rate limit: 10 requests per IP per minute, 50 per hour
+  const ip = getClientIp(req)
+  const minute = rateLimit(`match:1m:${ip}`, { max: 10, windowMs: 60_000 })
+  if (!minute.ok) {
+    return NextResponse.json(
+      { ok: false, error: `Too many requests. Try again in ${minute.retryAfter}s.` },
+      { status: 429, headers: { 'Retry-After': String(minute.retryAfter) } },
+    )
+  }
+  const hour = rateLimit(`match:1h:${ip}`, { max: 50, windowMs: 3_600_000 })
+  if (!hour.ok) {
+    return NextResponse.json(
+      { ok: false, error: `Hourly limit reached. Try again in ${Math.ceil(hour.retryAfter / 60)} min.` },
+      { status: 429, headers: { 'Retry-After': String(hour.retryAfter) } },
+    )
   }
 
   let body: { query?: string }
@@ -36,7 +54,7 @@ export async function POST(req: Request) {
   try {
     const response = await client.messages.create({
       model: 'claude-haiku-4-5-20251001',
-      max_tokens: 2000,
+      max_tokens: 2500,
       messages: [{ role: 'user', content: prompt }],
     })
 

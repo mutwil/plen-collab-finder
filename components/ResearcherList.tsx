@@ -1,6 +1,7 @@
 'use client'
 
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect } from 'react'
+import { useRouter, useSearchParams } from 'next/navigation'
 import type { Researcher } from '@/lib/researchers'
 import ResearcherCard from './ResearcherCard'
 import SearchBar from './SearchBar'
@@ -8,8 +9,38 @@ import SearchBar from './SearchBar'
 const UNKNOWN = 'Other / unknown'
 
 export default function ResearcherList({ researchers }: { researchers: Researcher[] }) {
-  const [query, setQuery] = useState('')
-  const [inst, setInst] = useState<string>('all')
+  const router = useRouter()
+  const searchParams = useSearchParams()
+
+  // Initial state from URL
+  const urlQuery = searchParams.get('q') || ''
+  const urlInst = searchParams.get('inst') || 'all'
+  const urlTopic = searchParams.get('topic') || ''
+
+  const [query, setQuery] = useState(urlQuery)
+  const [inst, setInst] = useState<string>(urlInst)
+  const [topic, setTopic] = useState<string>(urlTopic)
+
+  // Keep state in sync when navigating via back/forward
+  useEffect(() => {
+    setQuery(searchParams.get('q') || '')
+    setInst(searchParams.get('inst') || 'all')
+    setTopic(searchParams.get('topic') || '')
+  }, [searchParams])
+
+  // Update URL (replace, don't push — avoids polluting history on every keystroke)
+  useEffect(() => {
+    const params = new URLSearchParams()
+    if (query) params.set('q', query)
+    if (inst !== 'all') params.set('inst', inst)
+    if (topic) params.set('topic', topic)
+    const qs = params.toString()
+    const url = qs ? `/?${qs}` : '/'
+    // Only update if different
+    if (window.location.pathname + window.location.search !== url) {
+      router.replace(url, { scroll: false })
+    }
+  }, [query, inst, topic, router])
 
   const institutions = useMemo(() => {
     const set = new Set<string>()
@@ -19,8 +50,13 @@ export default function ResearcherList({ researchers }: { researchers: Researche
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase()
+    const tp = topic.trim().toLowerCase()
     return researchers.filter((r) => {
       if (inst !== 'all' && (r.institution || UNKNOWN) !== inst) return false
+      if (tp) {
+        const topicsLc = (r.topics || []).map((t) => t.toLowerCase())
+        if (!topicsLc.some((t) => t === tp || t.includes(tp))) return false
+      }
       if (!q) return true
       const hay = [
         r.name,
@@ -35,9 +71,8 @@ export default function ResearcherList({ researchers }: { researchers: Researche
       ].filter(Boolean).join(' ').toLowerCase()
       return hay.includes(q)
     })
-  }, [researchers, query, inst])
+  }, [researchers, query, inst, topic])
 
-  // Group filtered researchers by institution
   const grouped = useMemo(() => {
     const map = new Map<string, Researcher[]>()
     for (const r of filtered) {
@@ -45,7 +80,6 @@ export default function ResearcherList({ researchers }: { researchers: Researche
       if (!map.has(key)) map.set(key, [])
       map.get(key)!.push(r)
     }
-    // Stable sort: institutions alphabetical, but PLEN/University of Copenhagen first
     const entries = Array.from(map.entries())
     entries.sort(([a], [b]) => {
       const rank = (x: string) =>
@@ -60,10 +94,17 @@ export default function ResearcherList({ researchers }: { researchers: Researche
     return entries
   }, [filtered])
 
+  const makeTopicHref = (t: string) => {
+    const params = new URLSearchParams()
+    params.set('topic', t)
+    if (inst !== 'all') params.set('inst', inst)
+    return `/?${params.toString()}`
+  }
+
   return (
     <div>
       <div className="flex flex-col sm:flex-row gap-3 mb-5">
-        <SearchBar value={query} onChange={setQuery} placeholder="Search by name, topic, lab..." />
+        <SearchBar value={query} onChange={setQuery} placeholder="Search by name, topic, summary…" />
         <select
           value={inst}
           onChange={(e) => setInst(e.target.value)}
@@ -75,6 +116,22 @@ export default function ResearcherList({ researchers }: { researchers: Researche
           ))}
         </select>
       </div>
+
+      {topic && (
+        <div className="mb-4 flex items-center gap-2 text-xs">
+          <span className="text-[var(--text-muted)]">Filtering by topic:</span>
+          <span className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-[var(--accent-soft)] text-[var(--accent)] font-medium">
+            {topic}
+            <button
+              onClick={() => setTopic('')}
+              className="text-[var(--accent)] hover:opacity-80 cursor-pointer bg-transparent border-none text-sm leading-none"
+              aria-label="Clear topic filter"
+            >
+              ×
+            </button>
+          </span>
+        </div>
+      )}
 
       <p className="text-xs text-[var(--text-muted)] mb-6 font-mono">
         {filtered.length} of {researchers.length} researchers · {grouped.length} institution{grouped.length !== 1 ? 's' : ''}
@@ -88,7 +145,7 @@ export default function ResearcherList({ researchers }: { researchers: Researche
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {rs.map((r) => (
-              <ResearcherCard key={r.id} researcher={r} />
+              <ResearcherCard key={r.id} researcher={r} topicHref={makeTopicHref} />
             ))}
           </div>
         </section>

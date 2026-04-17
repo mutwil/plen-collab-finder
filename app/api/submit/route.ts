@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server'
-import { writeFileSync, mkdirSync, existsSync } from 'node:fs'
-import { resolve } from 'node:path'
 import Anthropic from '@anthropic-ai/sdk'
+import { rateLimit, getClientIp } from '@/lib/rate-limit'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -17,7 +16,7 @@ const ALLOWED_INSTITUTIONS = [
   'IT University of Copenhagen',
 ]
 
-const ALLOWED_URL_HOSTS = /(\.ku\.dk|\.dtu\.dk|\.au\.dk|\.sdu\.dk|\.ruc\.dk|\.aau\.dk|\.cbs\.dk|\.itu\.dk|findresearcher\.sdu\.dk|pure\.au\.dk|pure\.dtu\.dk|plen\.ku\.dk|drug\.ku\.dk|food\.ku\.dk|bio\.ku\.dk|biosustain\.dtu\.dk|bioengineering\.dtu\.dk|qgg\.au\.dk|mbg\.au\.dk|ecos\.au\.dk)$/i
+const ALLOWED_URL_HOSTS = /(\.ku\.dk|\.dtu\.dk|\.au\.dk|\.sdu\.dk|\.ruc\.dk|\.aau\.dk|\.cbs\.dk|\.itu\.dk|findresearcher\.sdu\.dk|pure\.au\.dk|pure\.dtu\.dk|plen\.ku\.dk|drug\.ku\.dk|food\.ku\.dk|bio\.ku\.dk|biosustain\.dtu\.dk|bioengineering\.dtu\.dk|qgg\.au\.dk|mbg\.au\.dk|ecos\.au\.dk|curis\.ku\.dk|di\.ku\.dk)$/i
 
 interface SubmitBody {
   name?: string
@@ -35,6 +34,23 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: false, error: 'Server not configured' }, { status: 500 })
   }
 
+  // Rate limit: 3 submissions per IP per hour, 10 per day
+  const ip = getClientIp(req)
+  const hr = rateLimit(`submit:1h:${ip}`, { max: 3, windowMs: 3_600_000 })
+  if (!hr.ok) {
+    return NextResponse.json(
+      { ok: false, error: `Too many submissions. Try again in ${Math.ceil(hr.retryAfter / 60)} min.` },
+      { status: 429 },
+    )
+  }
+  const day = rateLimit(`submit:1d:${ip}`, { max: 10, windowMs: 24 * 3_600_000 })
+  if (!day.ok) {
+    return NextResponse.json(
+      { ok: false, error: 'Daily submission limit reached.' },
+      { status: 429 },
+    )
+  }
+
   let body: SubmitBody
   try {
     body = await req.json()
@@ -42,7 +58,6 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: false, error: 'Invalid JSON' }, { status: 400 })
   }
 
-  // ─── Basic validation ────────────────────────────────────────
   const name = String(body.name || '').trim()
   const title = String(body.title || '').trim()
   const institution = String(body.institution || '').trim()
@@ -84,7 +99,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: false, error: 'Summary or topics too long' }, { status: 400 })
   }
 
-  // ─── LLM moderation + profile URL verification ─────────────────
+  // LLM moderation
   const client = new Anthropic({ apiKey })
   const moderationPrompt = `You are moderating a submission to a public directory of Danish academic researchers. Evaluate whether this submission is legitimate and safe to publish.
 
@@ -97,17 +112,12 @@ SUBMISSION:
 - Topics: ${topics.join(', ') || '(not provided)'}
 - Self-description: ${summary || '(not provided)'}
 
-Check these concerns and respond with ONLY valid JSON, no prose:
-{
-  "verdict": "approve" | "reject" | "needs-review",
-  "reason": "<one sentence explaining the verdict>",
-  "flags": ["<any issues found, e.g. 'profanity', 'political statement', 'impersonation risk', 'vague topics'>"]
-}
+Respond with ONLY valid JSON, no prose:
+{"verdict": "approve" | "reject" | "needs-review", "reason": "<one sentence>", "flags": ["<any issues found>"]}
 
-Criteria:
-- APPROVE if: name looks like a real person, title is a legitimate academic rank, URL is a plausible profile page on an academic domain, summary (if present) is professional and topic-focused, no red flags.
-- NEEDS-REVIEW if: anything is borderline — vague but not malicious, unusual title, minor awkwardness.
-- REJECT if: profanity, hate speech, political or ideological statements unrelated to research, harassment, impersonation hints, URL looks suspicious or unrelated to academia, summary is spam/marketing, name is obviously fake.`
+- APPROVE: plausible academic profile, URL on academic domain, professional summary, no red flags.
+- NEEDS-REVIEW: borderline — vague but not malicious, unusual title, minor awkwardness.
+- REJECT: profanity, hate speech, political/ideological statements, harassment, impersonation hints, URL unrelated to academia, spam/marketing, obviously fake name.`
 
   let moderation: { verdict: string; reason: string; flags: string[] }
   try {
@@ -136,33 +146,68 @@ Criteria:
     }, { status: 400 })
   }
 
-  // ─── Write to submissions/ (pending human review) ────────────
-  const submission = {
-    submittedAt: new Date().toISOString(),
-    moderation,
-    researcher: {
-      name, title, department, institution, url,
-      topics: topics.length > 0 ? topics : undefined,
-      summary: summary || undefined,
-    },
+  // File as GitHub Issue if configured
+  const ghToken = process.env.GITHUB_TOKEN
+  const ghRepo = process.env.GITHUB_REPO  // e.g. "mutwil/plen-collab-finder"
+  let issueUrl: string | undefined
+
+  if (ghToken && ghRepo) {
+    const issueBody = [
+      `**Submitted via /submit form** — verdict: \`${moderation.verdict}\``,
+      '',
+      `**Name:** ${name}`,
+      `**Title:** ${title}`,
+      `**Institution:** ${institution}`,
+      department ? `**Department:** ${department}` : '',
+      `**Profile URL:** ${url}`,
+      topics.length > 0 ? `**Topics:** ${topics.join(', ')}` : '',
+      summary ? `\n**Self-description:**\n${summary}` : '',
+      '',
+      '---',
+      `**Moderation:** ${moderation.reason}`,
+      moderation.flags?.length ? `**Flags:** ${moderation.flags.join(', ')}` : '',
+      '',
+      `_IP: ${ip.slice(0, 20)} · Time: ${new Date().toISOString()}_`,
+    ].filter(Boolean).join('\n')
+
+    try {
+      const ghRes = await fetch(`https://api.github.com/repos/${ghRepo}/issues`, {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${ghToken}`,
+          'Accept': 'application/vnd.github+json',
+          'X-GitHub-Api-Version': '2022-11-28',
+          'Content-Type': 'application/json',
+          'User-Agent': 'plen-collab-finder',
+        },
+        body: JSON.stringify({
+          title: `Submission: ${name} (${moderation.verdict})`,
+          body: issueBody,
+          labels: ['submission', `verdict:${moderation.verdict}`],
+        }),
+      })
+      if (ghRes.ok) {
+        const data = await ghRes.json()
+        issueUrl = data.html_url
+      } else {
+        console.error('GitHub issue create failed:', ghRes.status, await ghRes.text())
+      }
+    } catch (err) {
+      console.error('GitHub issue create error:', err)
+    }
   }
 
-  const dir = resolve(process.cwd(), 'submissions')
-  if (!existsSync(dir)) mkdirSync(dir, { recursive: true })
-  const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
-  const file = resolve(dir, `${Date.now()}-${slug}.json`)
-  try {
-    writeFileSync(file, JSON.stringify(submission, null, 2))
-  } catch (err) {
-    // On read-only filesystems (Vercel), fall back to logging
-    console.log('SUBMISSION (could not persist):', JSON.stringify(submission))
+  // If no GitHub, log (Vercel filesystem is read-only)
+  if (!issueUrl) {
+    console.log('SUBMISSION:', JSON.stringify({ moderation, name, institution, url, issueConfigured: !!ghToken }))
   }
 
   return NextResponse.json({
     ok: true,
     verdict: moderation.verdict,
     message: moderation.verdict === 'approve'
-      ? 'Thanks! Your submission passed auto-moderation and is queued for publishing.'
-      : 'Thanks! Your submission needs a human review before publishing.',
+      ? 'Thanks! Your submission passed auto-moderation and is queued for review.'
+      : 'Thanks! Your submission was received and will be reviewed.',
+    issueUrl,
   })
 }
