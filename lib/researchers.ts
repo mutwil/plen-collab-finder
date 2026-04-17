@@ -32,12 +32,12 @@ export function getById(id: string): Researcher | undefined {
 }
 
 export function sortResearchers(rs: Researcher[]): Researcher[] {
-  return [...rs].sort((a, b) => {
-    const fa = FIT_ORDER[a.collaborationFit ?? 'Low'] ?? 3
-    const fb = FIT_ORDER[b.collaborationFit ?? 'Low'] ?? 3
-    if (fa !== fb) return fa - fb
-    return a.name.localeCompare(b.name)
-  })
+  return [...rs].sort((a, b) => lastNameOf(a.name).localeCompare(lastNameOf(b.name)))
+}
+
+function lastNameOf(name: string): string {
+  const parts = name.trim().split(/\s+/)
+  return parts[parts.length - 1] || name
 }
 
 export function allDepartments(): string[] {
