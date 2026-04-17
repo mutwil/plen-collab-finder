@@ -89,8 +89,9 @@ If you cannot find reliable information about this specific person, respond with
       throw new Error(`parse: ${e.message}`)
     }
 
-    const topics = Array.isArray(parsed.topics) ? parsed.topics.map(String).filter(Boolean).slice(0, 10) : []
-    const summary = String(parsed.summary || '').slice(0, 600).trim()
+    const cleanCites = (s) => String(s).replace(/<cite[^>]*>/g, '').replace(/<\/cite>/g, '').replace(/\s+/g, ' ').trim()
+    const topics = Array.isArray(parsed.topics) ? parsed.topics.map((t) => cleanCites(t)).filter(Boolean).slice(0, 10) : []
+    const summary = cleanCites(parsed.summary || '').slice(0, 600)
 
     if (topics.length === 0 && !summary) {
       throw new Error('no info found')
