@@ -5315,5 +5315,1165 @@
     "department": "DTU Aqua",
     "institution": "Technical University of Denmark",
     "url": "https://www.dtu.dk/person/amber-adore-boot?id=227897"
+  },
+  {
+    "id": "niels-agerbirk",
+    "name": "Niels Agerbirk",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/310992"
+  },
+  {
+    "id": "christian-andreasen",
+    "name": "Christian Andreasen",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/8801"
+  },
+  {
+    "id": "johan-andersen-ranberg",
+    "name": "Johan Andersen-Ranberg",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/280739"
+  },
+  {
+    "id": "frederik-bak",
+    "name": "Frederik Bak",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/331508"
+  },
+  {
+    "id": "nanna-bjarnholt",
+    "name": "Nanna Bjarnholt",
+    "title": "Associate Professor (promotion track)",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/32784"
+  },
+  {
+    "id": "marie-louise-born",
+    "name": "Marie Louise Bornø",
+    "title": "Tenure Track Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/347419"
+  },
+  {
+    "id": "kristian-koefoed-brandt",
+    "name": "Kristian Koefoed Brandt",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/212298"
+  },
+  {
+    "id": "andreas-br-ndholt",
+    "name": "Andreas Brændholt",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/333000"
+  },
+  {
+    "id": "pablo-d-cardenas",
+    "name": "Pablo D. Cárdenas",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/604700"
+  },
+  {
+    "id": "alexander-byth-carstens",
+    "name": "Alexander Byth Carstens",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/375071"
+  },
+  {
+    "id": "svend-christensen",
+    "name": "Svend Christensen",
+    "title": "Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/345309"
+  },
+  {
+    "id": "pedro-miguel-pereira-correia",
+    "name": "Pedro Miguel Pereira Correia",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/736853"
+  },
+  {
+    "id": "sohini-deb",
+    "name": "Sohini Deb",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/736602"
+  },
+  {
+    "id": "dorte-bodin-dresb-ll",
+    "name": "Dorte Bodin Dresbøll",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/315459"
+  },
+  {
+    "id": "brian-lund-fredensborg",
+    "name": "Brian Lund Fredensborg",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/438233"
+  },
+  {
+    "id": "fernando-geu-flores",
+    "name": "Fernando Geu-Flores",
+    "title": "Associate Professor (promotion track)",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/310786"
+  },
+  {
+    "id": "bhim-bahadur-ghaley",
+    "name": "Bhim Bahadur Ghaley",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/228779"
+  },
+  {
+    "id": "veronika-hansen",
+    "name": "Veronika Hansen",
+    "title": "Tenure Track Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/312500"
+  },
+  {
+    "id": "christian-bugge-henriksen",
+    "name": "Christian Bugge Henriksen",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/75052"
+  },
+  {
+    "id": "nina-molin-h-yland-kroghsbo",
+    "name": "Nina Molin Høyland-Kroghsbo",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/277125"
+  },
+  {
+    "id": "stine-kramer-jacobsen",
+    "name": "Stine Kramer Jacobsen",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/313152"
+  },
+  {
+    "id": "signe-marie-jensen",
+    "name": "Signe Marie Jensen",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/221863"
+  },
+  {
+    "id": "per-moestrup-jensen",
+    "name": "Per Moestrup Jensen",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/116671"
+  },
+  {
+    "id": "annette-bruun-jensen",
+    "name": "Annette Bruun Jensen",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/139273"
+  },
+  {
+    "id": "birgit-jensen",
+    "name": "Birgit Jensen",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/310832"
+  },
+  {
+    "id": "hans-j-rgen-lyngs-j-rgensen",
+    "name": "Hans Jørgen Lyngs Jørgensen",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/309882"
+  },
+  {
+    "id": "bodil-j-rgensen",
+    "name": "Bodil Jørgensen",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/171865"
+  },
+  {
+    "id": "kirsten-j-rgensen",
+    "name": "Kirsten Jørgensen",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/171866"
+  },
+  {
+    "id": "johanna-krahmer",
+    "name": "Johanna Krahmer",
+    "title": "Tenure Track Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/774597"
+  },
+  {
+    "id": "conny-bruun-asmussen-lange",
+    "name": "Conny Bruun Asmussen Lange",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/31138"
+  },
+  {
+    "id": "kristian-holst-laursen",
+    "name": "Kristian Holst Laursen",
+    "title": "Associate Professor (promotion track)",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/310789"
+  },
+  {
+    "id": "tomas-laursen",
+    "name": "Tomas Laursen",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/311433"
+  },
+  {
+    "id": "antoine-lecocq",
+    "name": "Antoine Lecocq",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/371491"
+  },
+  {
+    "id": "feiyan-liang",
+    "name": "Feiyan Liang",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/637803"
+  },
+  {
+    "id": "grmay-hailu-lilay",
+    "name": "Grmay Hailu Lilay",
+    "title": "Tenure Track Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/419288"
+  },
+  {
+    "id": "guangbin-luo",
+    "name": "Guangbin Luo",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/690450"
+  },
+  {
+    "id": "marin-rose-lysak",
+    "name": "Marin Rose Lysák",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/380999"
+  },
+  {
+    "id": "henrik-vlk-lutken",
+    "name": "Henrik Vlk Lütken",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/310258"
+  },
+  {
+    "id": "jakob-magid",
+    "name": "Jakob Magid",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/44228"
+  },
+  {
+    "id": "karel-anton-miettinen",
+    "name": "Karel Anton Miettinen",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/612493"
+  },
+  {
+    "id": "dorette-sophie-muller-stover",
+    "name": "Dorette Sophie Müller-Stöver",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/352558"
+  },
+  {
+    "id": "mette-haubjerg-nicolaisen",
+    "name": "Mette Haubjerg Nicolaisen",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/310794"
+  },
+  {
+    "id": "nikoline-juul-nielsen",
+    "name": "Nikoline Juul Nielsen",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/228256"
+  },
+  {
+    "id": "tue-kj-rgaard-nielsen",
+    "name": "Tue Kjærgaard Nielsen",
+    "title": "Tenure Track Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/331150"
+  },
+  {
+    "id": "lise-charlotte-marie-noack",
+    "name": "Lise Charlotte Marie Noack",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/693373"
+  },
+  {
+    "id": "rocio-ochoa-fernandez",
+    "name": "Rocio Ochoa Fernandez",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/708015"
+  },
+  {
+    "id": "mike-ogden",
+    "name": "Mike Ogden",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/742042"
+  },
+  {
+    "id": "morgane-ourry",
+    "name": "Morgane Ourry",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/709398"
+  },
+  {
+    "id": "chandana-pandey",
+    "name": "Chandana Pandey",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/641742"
+  },
+  {
+    "id": "carsten-pedersen",
+    "name": "Carsten Pedersen",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/310087"
+  },
+  {
+    "id": "daniel-pergament-persson",
+    "name": "Daniel Pergament Persson",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/310608"
+  },
+  {
+    "id": "rikke-poulsen",
+    "name": "Rikke Poulsen",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/347264"
+  },
+  {
+    "id": "daniel-poveda-huertes",
+    "name": "Daniel Poveda Huertes",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/711720"
+  },
+  {
+    "id": "nelly-sophie-raymond",
+    "name": "Nelly Sophie Raymond",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/506202"
+  },
+  {
+    "id": "leise-riber",
+    "name": "Leise Riber",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/383117"
+  },
+  {
+    "id": "monica-rojas-triana",
+    "name": "Monica Rojas Triana",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/771280"
+  },
+  {
+    "id": "eva-rosenqvist",
+    "name": "Eva Rosenqvist",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/207353"
+  },
+  {
+    "id": "lene-sigsgaard",
+    "name": "Lene Sigsgaard",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/46040"
+  },
+  {
+    "id": "bjarne-w-strobel",
+    "name": "Bjarne W. Strobel",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/309780"
+  },
+  {
+    "id": "simon-fiil-svane",
+    "name": "Simon Fiil Svane",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/331234"
+  },
+  {
+    "id": "azeem-tariq",
+    "name": "Azeem Tariq",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/430421"
+  },
+  {
+    "id": "frederik-gr-nb-k-tidemand",
+    "name": "Frederik Grønbæk Tidemand",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/410166"
+  },
+  {
+    "id": "selina-kornelia-tisler",
+    "name": "Selina Kornelia Tisler",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/675360"
+  },
+  {
+    "id": "dominique-jeanette-tobler",
+    "name": "Dominique Jeanette Tobler",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/441880"
+  },
+  {
+    "id": "torben-bo-toldam-andersen",
+    "name": "Torben Bo Toldam-Andersen",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/309900"
+  },
+  {
+    "id": "giorgio-tomasi",
+    "name": "Giorgio Tomasi",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/313738"
+  },
+  {
+    "id": "xenia-trier",
+    "name": "Xenia Trier",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/228963"
+  },
+  {
+    "id": "mai-duy-luu-trinh",
+    "name": "Mai Duy Luu Trinh",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/706273"
+  },
+  {
+    "id": "frederik-van-der-bom",
+    "name": "Frederik van der Bom",
+    "title": "Tenure Track Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/474828"
+  },
+  {
+    "id": "deyang-xu",
+    "name": "Deyang Xu",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/438696"
+  },
+  {
+    "id": "shuai-zheng",
+    "name": "Shuai Zheng",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/694751"
+  },
+  {
+    "id": "henrik-hjarvard-de-fine-licht",
+    "name": "Henrik Hjarvard de Fine Licht",
+    "title": "Associate Professor (promotion track)",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/194704"
+  },
+  {
+    "id": "marian-rgaard",
+    "name": "Marian Ørgaard",
+    "title": "Associate Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/39398"
+  },
+  {
+    "id": "witold-piotr-kot",
+    "name": "Witold Piotr Kot",
+    "title": "Tenure Track Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/335675"
+  },
+  {
+    "id": "bruno-trevenzoli-favero",
+    "name": "Bruno Trevenzoli Favero",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/544560"
+  },
+  {
+    "id": "xizi-wang",
+    "name": "Xizi Wang",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/594381"
+  },
+  {
+    "id": "guillermo-sergio-moreno-pescador",
+    "name": "Guillermo Sergio Moreno Pescador",
+    "title": "Assistant Professor",
+    "department": "PLEN",
+    "institution": "University of Copenhagen",
+    "url": "https://plen.ku.dk/?pure=da/persons/427635"
+  },
+  {
+    "id": "amir-yehudayoff",
+    "name": "Amir Yehudayoff",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/786711"
+  },
+  {
+    "id": "barry-brown",
+    "name": "Barry Brown",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/742081"
+  },
+  {
+    "id": "christina-lioma",
+    "name": "Christina Lioma",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/424829"
+  },
+  {
+    "id": "erik-bj-rnager-dam",
+    "name": "Erik Bjørnager Dam",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/93620"
+  },
+  {
+    "id": "ingemar-johansson-cox",
+    "name": "Ingemar Johansson Cox",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/456392"
+  },
+  {
+    "id": "irina-alex-shklovski",
+    "name": "Irina Alex Shklovski",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/672153"
+  },
+  {
+    "id": "jakob-nordstrom",
+    "name": "Jakob Nordström",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/638573"
+  },
+  {
+    "id": "jon-sporring",
+    "name": "Jon Sporring",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/45217"
+  },
+  {
+    "id": "kasper-hornb-k",
+    "name": "Kasper Hornbæk",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/141851"
+  },
+  {
+    "id": "mads-nielsen",
+    "name": "Mads Nielsen",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/137906"
+  },
+  {
+    "id": "morten-misfeldt",
+    "name": "Morten Misfeldt",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/21225"
+  },
+  {
+    "id": "pernille-bj-rn",
+    "name": "Pernille Bjørn",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/417695"
+  },
+  {
+    "id": "philippe-bonnet",
+    "name": "Philippe Bonnet",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/214771"
+  },
+  {
+    "id": "robert-gluck",
+    "name": "Robert Glück",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/146978"
+  },
+  {
+    "id": "robert-jenssen",
+    "name": "Robert Jenssen",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/722791"
+  },
+  {
+    "id": "serge-belongie",
+    "name": "Serge Belongie",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/575485"
+  },
+  {
+    "id": "stefan-sommer",
+    "name": "Stefan Sommer",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/254908"
+  },
+  {
+    "id": "stephen-alstrup",
+    "name": "Stephen Alstrup",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/110448"
+  },
+  {
+    "id": "sune-darkner",
+    "name": "Sune Darkner",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/383640"
+  },
+  {
+    "id": "thomas-philip-jensen",
+    "name": "Thomas Philip Jensen",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/120287"
+  },
+  {
+    "id": "wouter-boomsma",
+    "name": "Wouter Boomsma",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/275482"
+  },
+  {
+    "id": "yongluan-zhou",
+    "name": "Yongluan Zhou",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/590429"
+  },
+  {
+    "id": "andrzej-filinski",
+    "name": "Andrzej Filinski",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/90337"
+  },
+  {
+    "id": "boris-dudder",
+    "name": "Boris Düdder",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/575423"
+  },
+  {
+    "id": "bulat-ibragimov",
+    "name": "Bulat Ibragimov",
+    "title": "Associate Professor (promotion track)",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/644987"
+  },
+  {
+    "id": "cosmin-eugen-oancea",
+    "name": "Cosmin Eugen Oancea",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/421441"
+  },
+  {
+    "id": "daniel-lee-ashbrook",
+    "name": "Daniel Lee Ashbrook",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/609533"
+  },
+  {
+    "id": "fabian-christian-gieseke",
+    "name": "Fabian Christian Gieseke",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/473301"
+  },
+  {
+    "id": "francois-lauze",
+    "name": "Francois Lauze",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/200294"
+  },
+  {
+    "id": "fritz-henglein",
+    "name": "Fritz Henglein",
+    "title": "Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/14770"
+  },
+  {
+    "id": "james-emil-avery",
+    "name": "James Emil Avery",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/180093"
+  },
+  {
+    "id": "jens-petersen",
+    "name": "Jens Petersen",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/178402"
+  },
+  {
+    "id": "joanna-emilia-bergstrom",
+    "name": "Joanna Emilia Bergström",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/540723"
+  },
+  {
+    "id": "maria-maistro",
+    "name": "Maria Maistro",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/641366"
+  },
+  {
+    "id": "melanie-ganz-benjaminsen",
+    "name": "Melanie Ganz-Benjaminsen",
+    "title": "Associate Professor (promotion track)",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/341919"
+  },
+  {
+    "id": "michael-kastoryano",
+    "name": "Michael Kastoryano",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/354625"
+  },
+  {
+    "id": "mikkel-abrahamsen",
+    "name": "Mikkel Abrahamsen",
+    "title": "Associate Professor (promotion track)",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/289414"
+  },
+  {
+    "id": "naja-holten-m-ller",
+    "name": "Naja Holten Møller",
+    "title": "Associate Professor (promotion track)",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/340853"
+  },
+  {
+    "id": "omry-ross",
+    "name": "Omry Ross",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/295505"
+  },
+  {
+    "id": "oswin-krause",
+    "name": "Oswin Krause",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/440348"
+  },
+  {
+    "id": "srikanth-srinivasan",
+    "name": "Srikanth Srinivasan",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/792011"
+  },
+  {
+    "id": "tariq-osman-andersen",
+    "name": "Tariq Osman Andersen",
+    "title": "Associate Professor (promotion track)",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/353044"
+  },
+  {
+    "id": "tijs-slaats",
+    "name": "Tijs Slaats",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/561613"
+  },
+  {
+    "id": "torben-gidius-mogensen",
+    "name": "Torben Ægidius Mogensen",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/162114"
+  },
+  {
+    "id": "tuukka-ruotsalo",
+    "name": "Tuukka Ruotsalo",
+    "title": "Associate Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/679001"
+  },
+  {
+    "id": "amartya-sanyal",
+    "name": "Amartya Sanyal",
+    "title": "Tenure Track Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/790067"
+  },
+  {
+    "id": "ankit-kariryaa",
+    "name": "Ankit Kariryaa",
+    "title": "Tenure Track Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/636966"
+  },
+  {
+    "id": "bernhard-kerbl",
+    "name": "Bernhard Kerbl",
+    "title": "Tenure Track Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/840995"
+  },
+  {
+    "id": "boel-nelson",
+    "name": "Boel Nelson",
+    "title": "Tenure Track Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/760913"
+  },
+  {
+    "id": "hang-yin",
+    "name": "Hang Yin",
+    "title": "Tenure Track Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/773091"
+  },
+  {
+    "id": "jacob-holm",
+    "name": "Jacob Holm",
+    "title": "Tenure Track Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/42387"
+  },
+  {
+    "id": "julius-bier-kirkegaard",
+    "name": "Julius Bier Kirkegaard",
+    "title": "Tenure Track Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/373643"
+  },
+  {
+    "id": "nirupam-gupta",
+    "name": "Nirupam Gupta",
+    "title": "Tenure Track Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/819815"
+  },
+  {
+    "id": "pepa-kostadinova-atanasova",
+    "name": "Pepa Kostadinova Atanasova",
+    "title": "Tenure Track Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/644356"
+  },
+  {
+    "id": "raghavendra-selvan",
+    "name": "Raghavendra Selvan",
+    "title": "Tenure Track Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/532407"
+  },
+  {
+    "id": "sadegh-talebi",
+    "name": "Sadegh Talebi",
+    "title": "Tenure Track Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/673024"
+  },
+  {
+    "id": "sarah-frances-homewood",
+    "name": "Sarah Frances Homewood",
+    "title": "Tenure Track Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/710616"
+  },
+  {
+    "id": "teresa-hirzle",
+    "name": "Teresa Hirzle",
+    "title": "Tenure Track Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/745346"
+  },
+  {
+    "id": "troels-henriksen",
+    "name": "Troels Henriksen",
+    "title": "Tenure Track Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/304977"
+  },
+  {
+    "id": "valkyrie-savage",
+    "name": "Valkyrie Savage",
+    "title": "Tenure Track Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/729674"
+  },
+  {
+    "id": "jeppe-have-rasmussen",
+    "name": "Jeppe Have Rasmussen",
+    "title": "Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/793108"
+  },
+  {
+    "id": "ilias-chalkidis",
+    "name": "Ilias Chalkidis",
+    "title": "Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/708168"
+  },
+  {
+    "id": "martin-n-rgaard",
+    "name": "Martin Nørgaard",
+    "title": "Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/397206"
+  },
+  {
+    "id": "michael-kirkedal-thomsen",
+    "name": "Michael Kirkedal Thomsen",
+    "title": "Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/196082"
+  },
+  {
+    "id": "mostafa-mehdipour-ghazi",
+    "name": "Mostafa Mehdipour Ghazi",
+    "title": "Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/595060"
+  },
+  {
+    "id": "stefan-oehmcke",
+    "name": "Stefan Oehmcke",
+    "title": "Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/641966"
+  },
+  {
+    "id": "svetlana-kutuzova",
+    "name": "Svetlana Kutuzova",
+    "title": "Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/642441"
+  },
+  {
+    "id": "vikrant-singhal",
+    "name": "Vikrant Singhal",
+    "title": "Assistant Professor",
+    "department": "DIKU",
+    "institution": "University of Copenhagen",
+    "url": "https://di.ku.dk/?pure=da/persons/922895"
   }
 ]
