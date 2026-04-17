@@ -2,7 +2,7 @@ import { loadResearchers } from '@/lib/researchers'
 import MatchForm from '@/components/MatchForm'
 
 export const metadata = {
-  title: 'AI Match — PLEN Collab Finder',
+  title: 'AI Match — DK Collab Finder',
   description: 'Describe your project and get AI-ranked collaborator suggestions.',
 }
 

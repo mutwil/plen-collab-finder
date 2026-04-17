@@ -9,11 +9,11 @@ export default function HomePage() {
     <div className="max-w-6xl mx-auto px-6 py-10">
       <section className="mb-10">
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight mb-3">
-          Find a collaborator across Danish plant sciences.
+          Find a research collaborator in Denmark.
         </h1>
         <p className="text-[var(--text-muted)] mb-5 max-w-2xl">
-          A curated directory of researchers at PLEN, BIO, FOOD, DTU Biosustain, AU MBG and
-          beyond — with AI-powered matching on research interests.
+          A curated directory of faculty at Danish research institutions — with
+          AI-powered matching on research interests.
         </p>
         <Link
           href="/match"

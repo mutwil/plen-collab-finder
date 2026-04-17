@@ -55,7 +55,7 @@ export default function MatchForm({ allResearchers }: { allResearchers: Research
       <textarea
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="e.g. I want to combine machine learning with plant-microbe interaction data to predict nitrogen-fixation efficiency in legume cultivars..."
+        placeholder="e.g. I'm looking for a collaborator with expertise in single-cell transcriptomics and machine learning, ideally someone who has worked with non-model organisms..."
         rows={5}
         className="w-full bg-[var(--bg-card)] border border-[var(--border)] rounded-md px-3 py-2 text-sm text-[var(--text)] placeholder:text-[var(--text-subtle)] focus:outline-none focus:border-[var(--accent)] resize-y"
       />

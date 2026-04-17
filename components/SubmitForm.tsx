@@ -109,7 +109,7 @@ export default function SubmitForm() {
 
       {field('department', 'Department', 'input', { placeholder: 'e.g. PLEN, AU MBG', maxLength: 100 })}
       {field('url', 'Profile URL * (must be on a Danish academic domain)', 'input', { placeholder: 'https://plen.ku.dk/english/employees/...', maxLength: 400 })}
-      {field('topicsText', 'Research topics (comma-separated, up to 15)', 'input', { placeholder: 'plant genomics, machine learning, root microbiome' })}
+      {field('topicsText', 'Research topics (comma-separated, up to 15)', 'input', { placeholder: 'genomics, machine learning, microbiome, structural biology' })}
 
       <label className="block">
         <span className="block text-sm font-medium mb-1">Short research summary (optional)</span>

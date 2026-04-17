@@ -24,7 +24,7 @@ export function buildResearcherDigest(researchers: Researcher[]) {
 }
 
 export function buildMatchPrompt(query: string, digest: ReturnType<typeof buildResearcherDigest>) {
-  return `You are helping a researcher at PLEN (Department of Plant and Environmental Sciences, University of Copenhagen) identify the best potential collaborators in Denmark.
+  return `You are helping a researcher in Denmark identify the best potential collaborators from a directory of faculty across Danish research institutions.
 
 The user's project description:
 """
@@ -35,7 +35,7 @@ Here is the directory of available researchers (JSON):
 ${JSON.stringify(digest)}
 
 TASK:
-Select the top 10 most relevant researchers. Rank them by genuine topical overlap with the user's project — not just keyword match. Favor researchers whose published work actually involves the relevant methods, organisms, or questions. If fewer than 10 are a reasonable fit, return fewer.
+Select the top 10 most relevant researchers. Rank them by genuine topical overlap with the user's project — not just keyword match. Favor researchers whose published work actually involves the relevant methods, systems, or questions. If fewer than 10 are a reasonable fit, return fewer.
 
 Respond with ONLY valid JSON in this exact shape, no prose, no markdown fences:
 {

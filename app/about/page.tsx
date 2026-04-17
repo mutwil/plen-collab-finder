@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'About — PLEN Collab Finder',
+  title: 'About — DK Collab Finder',
 }
 
 export default function AboutPage() {
@@ -9,14 +9,14 @@ export default function AboutPage() {
 
       <section className="space-y-4 text-[var(--text)] leading-relaxed">
         <p>
-          <strong>PLEN Collab Finder</strong> is a directory of researchers at Danish plant-science-adjacent
-          departments, built to help anyone at PLEN (Department of Plant and Environmental Sciences, University of
-          Copenhagen) identify potential collaborators.
+          <strong>Danish Research Collaboration Finder</strong> is a directory of faculty at Danish research
+          institutions, built to help researchers identify potential collaborators across departments and universities.
         </p>
 
         <p>
-          It covers PLEN, BIO, FOOD, SUND, DTU Biosustain, DTU Bioengineering, AU MBG, and other departments that
-          frequently overlap with plant science, molecular biology, genomics, and computational biology.
+          It covers faculty at the University of Copenhagen (including PLEN, BIO, FOOD, DIKU, Drug Design),
+          Aarhus University (MBG, QGG), Technical University of Denmark (Biosustain, Bioengineering, Aqua),
+          University of Southern Denmark, and other Danish research institutions.
         </p>
 
         <h2 className="text-xl font-semibold mt-8 mb-2">How matching works</h2>

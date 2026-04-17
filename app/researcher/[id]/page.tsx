@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const r = getById(id)
   if (!r) return {}
   return {
-    title: `${r.name} — PLEN Collab Finder`,
+    title: `${r.name} — DK Collab Finder`,
     description: r.summary || `${r.title ?? ''} at ${r.department ?? r.institution ?? ''}`.trim(),
   }
 }

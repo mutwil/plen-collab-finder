@@ -1,7 +1,7 @@
 import SubmitForm from '@/components/SubmitForm'
 
 export const metadata = {
-  title: 'Add yourself — PLEN Collab Finder',
+  title: 'Add yourself — DK Collab Finder',
   description: 'Submit your research profile to the Danish collaboration directory.',
 }
 
