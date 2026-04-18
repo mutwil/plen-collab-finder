@@ -50,7 +50,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav className="flex items-center gap-5 text-sm">
               <Link href="/" className="text-[var(--text-muted)] hover:text-[var(--text)] no-underline">Browse</Link>
               <Link href="/match" className="text-[var(--text-muted)] hover:text-[var(--text)] no-underline">AI Match</Link>
-              <Link href="/submit" className="text-[var(--text-muted)] hover:text-[var(--text)] no-underline">Add me</Link>
               <Link href="/about" className="text-[var(--text-muted)] hover:text-[var(--text)] no-underline">About</Link>
               <ThemeToggle />
             </nav>

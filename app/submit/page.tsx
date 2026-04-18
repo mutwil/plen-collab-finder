@@ -1,19 +1,19 @@
-import SubmitForm from '@/components/SubmitForm'
+import Link from 'next/link'
 
 export const metadata = {
   title: 'Add yourself — DK Collab Finder',
-  description: 'Submit your research profile to the Danish collaboration directory.',
+  description: 'Self-signup is temporarily disabled.',
 }
 
 export default function SubmitPage() {
   return (
-    <div className="max-w-2xl mx-auto px-6 py-10">
-      <h1 className="text-3xl font-bold tracking-tight mb-2">Add yourself to the directory</h1>
+    <div className="max-w-2xl mx-auto px-6 py-16 text-center">
+      <h1 className="text-2xl font-bold tracking-tight mb-3">Self-signup is temporarily disabled</h1>
       <p className="text-[var(--text-muted)] mb-6">
-        If you're a Danish-based researcher and want to be discoverable, submit your profile here.
-        Submissions are auto-moderated and queued for publishing after a brief human review.
+        To request a profile correction or addition, email{' '}
+        <a href="mailto:mutwil@plen.ku.dk" className="text-[var(--accent)] hover:underline">mutwil@plen.ku.dk</a>.
       </p>
-      <SubmitForm />
+      <Link href="/" className="text-[var(--accent)] hover:underline no-underline">← Back to browse</Link>
     </div>
   )
 }
