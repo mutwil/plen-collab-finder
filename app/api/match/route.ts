@@ -1,11 +1,22 @@
 import { NextResponse } from 'next/server'
 import Anthropic from '@anthropic-ai/sdk'
 import { loadResearchers } from '@/lib/researchers'
-import { buildResearcherDigest, buildMatchPrompt, parseMatchResponse } from '@/lib/match'
+import {
+  buildResearcherDigest,
+  buildCompactDigest,
+  buildMatchPrompt,
+  parseMatchResponse,
+  prefilterCandidates,
+} from '@/lib/match'
 import { rateLimit, getClientIp } from '@/lib/rate-limit'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
+
+// Rough token-budget guardrails. Claude Haiku 4.5 has a 200K input limit.
+// Stay well under to leave room for the prompt wrapper and the query.
+const SAFE_PROMPT_CHARS = 600_000 // ~150K tokens at 4 chars/token
+const CANDIDATE_LIMIT = 250
 
 export async function POST(req: Request) {
   const apiKey = process.env.ANTHROPIC_API_KEY
@@ -13,7 +24,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: false, error: 'ANTHROPIC_API_KEY not configured on server' }, { status: 500 })
   }
 
-  // Rate limit: 10 requests per IP per minute, 50 per hour
+  // Rate limit
   const ip = getClientIp(req)
   const minute = rateLimit(`match:1m:${ip}`, { max: 10, windowMs: 60_000 })
   if (!minute.ok) {
@@ -46,8 +57,23 @@ export async function POST(req: Request) {
   }
 
   const researchers = loadResearchers()
-  const digest = buildResearcherDigest(researchers)
-  const prompt = buildMatchPrompt(query, digest)
+
+  // Keyword pre-filter so we don't blow the token budget with the full ~1,300+ entries.
+  const shortlist = prefilterCandidates(query, researchers, CANDIDATE_LIMIT)
+
+  // Build the digest, falling back to the compact version if the full one is too big.
+  let digest: Array<Record<string, unknown>> = buildResearcherDigest(shortlist)
+  let prompt = buildMatchPrompt(query, digest)
+  if (prompt.length > SAFE_PROMPT_CHARS) {
+    digest = buildCompactDigest(shortlist)
+    prompt = buildMatchPrompt(query, digest)
+  }
+  // Still too big → trim the shortlist further.
+  if (prompt.length > SAFE_PROMPT_CHARS) {
+    const trimmed = shortlist.slice(0, 150)
+    digest = buildCompactDigest(trimmed)
+    prompt = buildMatchPrompt(query, digest)
+  }
 
   const client = new Anthropic({ apiKey })
 
