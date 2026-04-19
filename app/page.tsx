@@ -2,12 +2,14 @@ import Link from 'next/link'
 import { Suspense } from 'react'
 import { loadResearchers, sortResearchers } from '@/lib/researchers'
 import ResearcherList from '@/components/ResearcherList'
+import VikingBanner from '@/components/VikingBanner'
 
 export default function HomePage() {
   const researchers = sortResearchers(loadResearchers())
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-10">
+      <VikingBanner />
       <section className="mb-10">
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight mb-3">
           Find a research collaborator in Denmark.
