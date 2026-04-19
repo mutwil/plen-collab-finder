@@ -57,8 +57,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
         <main className="flex-1">{children}</main>
-        <footer className="border-t border-[var(--border)] mt-12 py-6 text-center text-xs text-[var(--text-subtle)]">
-          A directory of Danish research faculty
+        <footer className="border-t border-[var(--border)] mt-12 py-6 text-center text-xs text-[var(--text-subtle)] space-y-1">
+          <div>A directory of Danish research faculty</div>
+          <div>
+            Built by{' '}
+            <a
+              href="https://www.mutwillab.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[var(--text-muted)] hover:text-[var(--accent)] underline-offset-2 hover:underline"
+            >
+              Mutwil Lab
+            </a>
+          </div>
         </footer>
       </body>
     </html>

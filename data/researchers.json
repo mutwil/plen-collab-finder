@@ -13424,7 +13424,7 @@
     "title": "Associate Professor",
     "department": "PLEN",
     "institution": "University of Copenhagen",
-    "url": "https://plen.ku.dk/ansatte/?pure=da/persons/222641",
+    "url": "https://www.mutwillab.com",
     "topics": [
       "bioinformatics",
       "machine learning",
@@ -13438,7 +13438,8 @@
       "secondary metabolism evolution"
     ],
     "summary": "Marek Mutwil combines bioinformatics, machine learning, data science, and experimental biology to study the evolution of the plant kingdom from the perspective of gene expression. He uses computational biology to study gene co-function networks to understand how genes work together to express plant traits and to elucidate how plants evolve new pathways.",
-    "researchedAt": 1776459504022
+    "researchedAt": 1776459504022,
+    "labGroup": "Mutwil Lab"
   },
   {
     "id": "martin-rainer-bladt",
