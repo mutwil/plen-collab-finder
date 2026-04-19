@@ -230,10 +230,13 @@ export default function NetworkGraph({ data }: { data: GraphData }) {
         cy!.edges().removeClass('highlighted dimmed')
         const me = cy!.$id(id)
         me.addClass('selected')
-        const neighbors = me.neighborhood('node')
-        neighbors.addClass('neighbor')
-        me.connectedEdges().addClass('highlighted')
-        cy!.edges().not('.highlighted').addClass('dimmed')
+        // Only count edges that aren't hidden by the similarity cutoff
+        const visibleEdges = me.connectedEdges().not('.hidden')
+        // Compute neighbor nodes from those edges alone
+        const neighborNodes = visibleEdges.connectedNodes().not(me)
+        neighborNodes.addClass('neighbor')
+        visibleEdges.addClass('highlighted')
+        cy!.edges().not('.highlighted').not('.hidden').addClass('dimmed')
         setSelected(evt.target.data('raw') as GraphNode)
       })
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
