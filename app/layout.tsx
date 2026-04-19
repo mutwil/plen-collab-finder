@@ -52,6 +52,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/match" className="text-[var(--text-muted)] hover:text-[var(--text)] no-underline">AI Match</Link>
               <Link href="/graph" className="text-[var(--text-muted)] hover:text-[var(--text)] no-underline">Network</Link>
               <Link href="/about" className="text-[var(--text-muted)] hover:text-[var(--text)] no-underline">About</Link>
+              <a
+                href="https://discord.gg/cBDk7t6kwD"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Join the Discord — feedback & hangout"
+                className="text-[#5865F2] hover:opacity-80 no-underline text-[13px]"
+              >
+                Discord
+              </a>
               <ThemeToggle />
             </nav>
           </div>
@@ -69,6 +78,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             >
               Mutwil Lab
             </a>
+            {' · '}
+            <a
+              href="https://discord.gg/cBDk7t6kwD"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[var(--text-muted)] hover:text-[#5865F2] underline-offset-2 hover:underline"
+            >
+              Join the Discord
+            </a>
+            {' '}— drop by with feedback or just hang out
           </div>
         </footer>
       </body>
