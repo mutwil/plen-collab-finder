@@ -72,7 +72,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
             <span>A directory of Danish research faculty · built by</span>
             <a
-              href="https://www.mutwillab.com"
+              href="https://publish.obsidian.md/mutwillab/Homepage/News"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 text-[var(--text-muted)] hover:text-[var(--accent)] font-medium underline-offset-2 hover:underline"
