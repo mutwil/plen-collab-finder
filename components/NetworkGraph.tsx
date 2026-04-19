@@ -39,6 +39,7 @@ export default function NetworkGraph({ data }: { data: GraphData }) {
   const [query, setQuery] = useState('')
   const [layout, setLayout] = useState<'fcose' | 'concentric' | 'circle'>('fcose')
   const [hideIsolated, setHideIsolated] = useState(true)
+  const [minSimilarity, setMinSimilarity] = useState(0.2)
   const [loading, setLoading] = useState(true)
 
   const institutions = useMemo(() => {
@@ -154,7 +155,15 @@ export default function NetworkGraph({ data }: { data: GraphData }) {
           },
           {
             selector: 'node.hidden',
+            style: { 'display': 'none' },
+          },
+          {
+            selector: 'node.faded',
             style: { 'opacity': 0.08 },
+          },
+          {
+            selector: 'edge.hidden',
+            style: { 'display': 'none' },
           },
           {
             selector: 'node.neighbor',
@@ -191,7 +200,7 @@ export default function NetworkGraph({ data }: { data: GraphData }) {
           {
             selector: 'edge',
             style: {
-              'width': 'mapData(weight, 0.15, 1, 0.5, 3)',
+              'width': 'mapData(weight, 0.08, 1, 0.3, 3)',
               'line-color': '#78716c',
               'opacity': 0.25,
               'curve-style': 'straight',
@@ -275,45 +284,66 @@ export default function NetworkGraph({ data }: { data: GraphData }) {
     const hasInst = filterInst !== 'all'
     const hasAnyFilter = hasQuery || hasInst
 
-    // Classify matches (pass the filter)
+    // 1. Hide edges below similarity cutoff
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    cy.edges().forEach((e: any) => {
+      const w = e.data('weight') ?? 1
+      if (w < minSimilarity) e.addClass('hidden')
+      else e.removeClass('hidden')
+    })
+
+    // 2. Compute which nodes have visible (not .hidden) edges
+    const connectedIds = new Set<string>()
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    cy.edges(':not(.hidden)').forEach((e: any) => {
+      connectedIds.add(e.source().id())
+      connectedIds.add(e.target().id())
+    })
+
+    // 3. Matches and their neighbors
     const matchIds = visibleIds
-    // Expand to neighbor set so matched nodes have context
     const expandedIds = new Set<string>(matchIds)
     if (hasAnyFilter) {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       cy.nodes().forEach((n: any) => {
         if (matchIds.has(n.id())) {
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          n.neighborhood('node').forEach((nb: any) => expandedIds.add(nb.id()))
+          n.connectedEdges(':not(.hidden)').forEach((e: any) => {
+            expandedIds.add(e.source().id())
+            expandedIds.add(e.target().id())
+          })
         }
       })
     }
 
+    // 4. Apply classes to nodes
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     cy.nodes().forEach((n: any) => {
-      n.removeClass('hidden match')
+      n.removeClass('hidden match faded')
       const id = n.id()
-      const isolated = n.degree() === 0
-      if (hideIsolated && isolated && !matchIds.has(id)) {
+      const isOrphan = !connectedIds.has(id)
+
+      // Hide orphans (nodes with no edges above cutoff) if user wants
+      if (hideIsolated && isOrphan) {
         n.addClass('hidden')
         return
       }
       if (hasAnyFilter) {
         if (matchIds.has(id)) n.addClass('match')
-        else if (!expandedIds.has(id)) n.addClass('hidden')
+        else if (!expandedIds.has(id)) n.addClass('faded')
       }
     })
 
-    // Dim edges that don't connect to any match
+    // 5. Dim edges outside the match neighborhood
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    cy.edges().forEach((e: any) => {
+    cy.edges(':not(.hidden)').forEach((e: any) => {
       e.removeClass('dimmed')
       if (!hasAnyFilter) return
       const s = e.source().id()
       const t = e.target().id()
       if (!matchIds.has(s) && !matchIds.has(t)) e.addClass('dimmed')
     })
-  }, [visibleIds, hideIsolated, query, filterInst])
+  }, [visibleIds, hideIsolated, query, filterInst, minSimilarity])
 
   const runLayout = (name: typeof layout) => {
     setLayout(name)
@@ -366,7 +396,26 @@ export default function NetworkGraph({ data }: { data: GraphData }) {
           </div>
           <label className="flex items-center gap-1.5 text-[10px] font-mono text-[var(--text-muted)] cursor-pointer">
             <input type="checkbox" checked={hideIsolated} onChange={(e) => setHideIsolated(e.target.checked)} />
-            Hide isolated
+            Hide disconnected
+          </label>
+          <label className="flex flex-col gap-1 text-[10px] font-mono text-[var(--text-muted)]">
+            <div className="flex items-center justify-between">
+              <span>Similarity cutoff</span>
+              <span className="text-[var(--text)]">{minSimilarity.toFixed(2)}</span>
+            </div>
+            <input
+              type="range"
+              min={0.08}
+              max={0.8}
+              step={0.01}
+              value={minSimilarity}
+              onChange={(e) => setMinSimilarity(parseFloat(e.target.value))}
+              className="w-full accent-[var(--accent)]"
+            />
+            <div className="flex justify-between text-[9px] text-[var(--text-subtle)]">
+              <span>loose</span>
+              <span>strict</span>
+            </div>
           </label>
           <div className="text-[10px] font-mono text-[var(--text-subtle)] pt-1 border-t border-[var(--border)]">
             {visibleIds.size} of {data.nodes.length} nodes · {data.edges.length} edges

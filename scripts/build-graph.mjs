@@ -12,8 +12,8 @@ import { readFileSync, writeFileSync } from 'node:fs'
 const DATA_PATH = new URL('../data/researchers.json', import.meta.url)
 const OUT_PATH = new URL('../data/graph.json', import.meta.url)
 
-const K = 6          // top-K neighbors per node
-const MIN_SCORE = 0.15  // Jaccard threshold — weaker links dropped
+const K = 10           // top-K neighbors per node (broader, client slider can prune)
+const MIN_SCORE = 0.08  // low floor so the similarity slider has range to operate on
 
 const researchers = JSON.parse(readFileSync(DATA_PATH, 'utf8'))
   .filter((r) => r.topics && r.topics.length >= 3)  // need topics to be meaningful
