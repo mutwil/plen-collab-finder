@@ -127,10 +127,11 @@ export default function NetworkGraph({ data }: { data: GraphData }) {
               'border-width': 3,
               'border-color': '#16a34a',
               'label': 'data(label)',
-              'font-size': 12,
-              'color': 'var(--text)',
-              'text-outline-color': 'var(--bg)',
-              'text-outline-width': 2,
+              'font-size': 13,
+              'font-weight': 'bold',
+              'color': '#f5f5f4',
+              'text-outline-color': '#0c0a09',
+              'text-outline-width': 3,
               'text-valign': 'top',
               'text-margin-y': -4,
               'z-index': 999,
@@ -142,10 +143,10 @@ export default function NetworkGraph({ data }: { data: GraphData }) {
               'width': 14,
               'height': 14,
               'label': 'data(label)',
-              'font-size': 11,
-              'color': 'var(--text)',
-              'text-outline-color': 'var(--bg)',
-              'text-outline-width': 2,
+              'font-size': 12,
+              'color': '#f5f5f4',
+              'text-outline-color': '#0c0a09',
+              'text-outline-width': 3,
               'text-valign': 'top',
               'text-margin-y': -2,
               'z-index': 900,
@@ -153,7 +154,7 @@ export default function NetworkGraph({ data }: { data: GraphData }) {
           },
           {
             selector: 'node.hidden',
-            style: { 'display': 'none' },
+            style: { 'opacity': 0.08 },
           },
           {
             selector: 'node.neighbor',
@@ -161,13 +162,30 @@ export default function NetworkGraph({ data }: { data: GraphData }) {
               'width': 12,
               'height': 12,
               'label': 'data(label)',
-              'font-size': 10,
-              'color': 'var(--text-muted)',
-              'text-outline-color': 'var(--bg)',
-              'text-outline-width': 2,
+              'font-size': 11,
+              'color': '#e7e5e4',
+              'text-outline-color': '#0c0a09',
+              'text-outline-width': 3,
               'text-valign': 'top',
               'text-margin-y': -2,
               'z-index': 800,
+            },
+          },
+          {
+            selector: 'node.match',
+            style: {
+              'width': 14,
+              'height': 14,
+              'border-width': 2,
+              'border-color': '#f59e0b',
+              'label': 'data(label)',
+              'font-size': 12,
+              'color': '#fde68a',
+              'text-outline-color': '#0c0a09',
+              'text-outline-width': 3,
+              'text-valign': 'top',
+              'text-margin-y': -2,
+              'z-index': 850,
             },
           },
           {
@@ -253,15 +271,49 @@ export default function NetworkGraph({ data }: { data: GraphData }) {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const cy = cyRef.current as any
     if (!cy) return
+    const hasQuery = query.trim().length > 0
+    const hasInst = filterInst !== 'all'
+    const hasAnyFilter = hasQuery || hasInst
+
+    // Classify matches (pass the filter)
+    const matchIds = visibleIds
+    // Expand to neighbor set so matched nodes have context
+    const expandedIds = new Set<string>(matchIds)
+    if (hasAnyFilter) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      cy.nodes().forEach((n: any) => {
+        if (matchIds.has(n.id())) {
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          n.neighborhood('node').forEach((nb: any) => expandedIds.add(nb.id()))
+        }
+      })
+    }
+
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     cy.nodes().forEach((n: any) => {
+      n.removeClass('hidden match')
       const id = n.id()
-      const shown = visibleIds.has(id)
       const isolated = n.degree() === 0
-      if (!shown || (hideIsolated && isolated)) n.addClass('hidden')
-      else n.removeClass('hidden')
+      if (hideIsolated && isolated && !matchIds.has(id)) {
+        n.addClass('hidden')
+        return
+      }
+      if (hasAnyFilter) {
+        if (matchIds.has(id)) n.addClass('match')
+        else if (!expandedIds.has(id)) n.addClass('hidden')
+      }
     })
-  }, [visibleIds, hideIsolated])
+
+    // Dim edges that don't connect to any match
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    cy.edges().forEach((e: any) => {
+      e.removeClass('dimmed')
+      if (!hasAnyFilter) return
+      const s = e.source().id()
+      const t = e.target().id()
+      if (!matchIds.has(s) && !matchIds.has(t)) e.addClass('dimmed')
+    })
+  }, [visibleIds, hideIsolated, query, filterInst])
 
   const runLayout = (name: typeof layout) => {
     setLayout(name)
